@@ -1,0 +1,4893 @@
+{
+  "schema_version": 1,
+  "monsters": {
+    "GN00001": {
+      "family": "",
+      "metal": false
+    },
+    "GN00002": {
+      "family": "",
+      "metal": false
+    },
+    "GN00003": {
+      "family": "",
+      "metal": false
+    },
+    "GN00006": {
+      "family": "",
+      "metal": false
+    },
+    "GN00007": {
+      "family": "",
+      "metal": false
+    },
+    "GN00008": {
+      "family": "",
+      "metal": false
+    },
+    "GN00018": {
+      "family": "",
+      "metal": false
+    },
+    "GN00016": {
+      "family": "",
+      "metal": false
+    },
+    "GN00021": {
+      "family": "",
+      "metal": false
+    },
+    "GN00010": {
+      "family": "",
+      "metal": false
+    },
+    "GN00010++2++": {
+      "family": "",
+      "metal": false
+    },
+    "GN00010++3++": {
+      "family": "",
+      "metal": false
+    },
+    "GN00025": {
+      "family": "",
+      "metal": false
+    },
+    "GN00011": {
+      "family": "",
+      "metal": false
+    },
+    "GN00026": {
+      "family": "",
+      "metal": false
+    },
+    "GN00012": {
+      "family": "",
+      "metal": false
+    },
+    "GN00009": {
+      "family": "",
+      "metal": false
+    },
+    "GN00028": {
+      "family": "",
+      "metal": false
+    },
+    "GN00029": {
+      "family": "",
+      "metal": false
+    },
+    "GN00030": {
+      "family": "",
+      "metal": false
+    },
+    "GN00031": {
+      "family": "",
+      "metal": false
+    },
+    "GN00032": {
+      "family": "",
+      "metal": false
+    },
+    "GN00033": {
+      "family": "",
+      "metal": false
+    },
+    "GN00034": {
+      "family": "",
+      "metal": false
+    },
+    "GN00035": {
+      "family": "",
+      "metal": false
+    },
+    "GN00036": {
+      "family": "",
+      "metal": false
+    },
+    "GN00037": {
+      "family": "",
+      "metal": false
+    },
+    "GN00038": {
+      "family": "",
+      "metal": false
+    },
+    "GN00039": {
+      "family": "",
+      "metal": false
+    },
+    "GN00040": {
+      "family": "",
+      "metal": false
+    },
+    "GN00041": {
+      "family": "",
+      "metal": false
+    },
+    "GN00043": {
+      "family": "",
+      "metal": false
+    },
+    "A004_E001": {
+      "family": "",
+      "metal": false
+    },
+    "A011_E001": {
+      "family": "",
+      "metal": false
+    },
+    "A013_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M001_E001_S01": {
+      "family": "material",
+      "metal": false
+    },
+    "M001_E011_S01": {
+      "family": "material",
+      "metal": false
+    },
+    "M001_E081_S02": {
+      "family": "material",
+      "metal": false
+    },
+    "M001_E002_S01": {
+      "family": "material",
+      "metal": false
+    },
+    "M001_E002_S01_02": {
+      "family": "material",
+      "metal": false
+    },
+    "M001_E012_S01": {
+      "family": "material",
+      "metal": false
+    },
+    "M001_E003_S01": {
+      "family": "material",
+      "metal": false
+    },
+    "M001_E003_S02": {
+      "family": "material",
+      "metal": false
+    },
+    "M001_E013_S01": {
+      "family": "material",
+      "metal": false
+    },
+    "M001_E013_T01": {
+      "family": "material",
+      "metal": false
+    },
+    "M001_E093_S01": {
+      "family": "material",
+      "metal": false
+    },
+    "M004_E001": {
+      "family": "bird",
+      "metal": false
+    },
+    "M004_E091": {
+      "family": "bird",
+      "metal": false
+    },
+    "M004_E002": {
+      "family": "bird",
+      "metal": false
+    },
+    "M004_E092": {
+      "family": "bird",
+      "metal": false
+    },
+    "M004_E003": {
+      "family": "bird",
+      "metal": false
+    },
+    "M004_E083": {
+      "family": "bird",
+      "metal": false
+    },
+    "M005_E001": {
+      "family": "slime",
+      "metal": false
+    },
+    "M005_E001_S01": {
+      "family": "slime",
+      "metal": false
+    },
+    "M005_E001_S02": {
+      "family": "slime",
+      "metal": false
+    },
+    "M005_E001_S03": {
+      "family": "slime",
+      "metal": false
+    },
+    "M005_E001_P01": {
+      "family": "slime",
+      "metal": false
+    },
+    "M005_E001_T01": {
+      "family": "slime",
+      "metal": false
+    },
+    "M005_E001_T02": {
+      "family": "slime",
+      "metal": false
+    },
+    "M005_E081": {
+      "family": "slime",
+      "metal": false
+    },
+    "M005_E081_P01": {
+      "family": "slime",
+      "metal": false
+    },
+    "M005_E081_P02": {
+      "family": "slime",
+      "metal": false
+    },
+    "M005_E081_P03": {
+      "family": "slime",
+      "metal": false
+    },
+    "M005_E002": {
+      "family": "slime",
+      "metal": false
+    },
+    "M005_E092": {
+      "family": "slime",
+      "metal": false
+    },
+    "M005_E003": {
+      "family": "slime",
+      "metal": true
+    },
+    "M005_E003_S01": {
+      "family": "slime",
+      "metal": true
+    },
+    "M005_E003_S02": {
+      "family": "slime",
+      "metal": true
+    },
+    "M005_E003_P01": {
+      "family": "slime",
+      "metal": true
+    },
+    "M005_E083": {
+      "family": "slime",
+      "metal": true
+    },
+    "M005_E083_P01": {
+      "family": "slime",
+      "metal": true
+    },
+    "M005_E083_P02": {
+      "family": "slime",
+      "metal": true
+    },
+    "M005_E083_P03": {
+      "family": "slime",
+      "metal": true
+    },
+    "M006_E001": {
+      "family": "slime",
+      "metal": false
+    },
+    "M006_E001_T01": {
+      "family": "slime",
+      "metal": false
+    },
+    "M006_E081": {
+      "family": "slime",
+      "metal": false
+    },
+    "M006_E081_P01": {
+      "family": "slime",
+      "metal": false
+    },
+    "M006_E002": {
+      "family": "slime",
+      "metal": false
+    },
+    "M006_E082": {
+      "family": "slime",
+      "metal": false
+    },
+    "M006_E003": {
+      "family": "slime",
+      "metal": true
+    },
+    "M006_E003_P01": {
+      "family": "slime",
+      "metal": true
+    },
+    "M006_E083": {
+      "family": "slime",
+      "metal": true
+    },
+    "M006_E083_P01": {
+      "family": "slime",
+      "metal": true
+    },
+    "M007_E001": {
+      "family": "slime",
+      "metal": true
+    },
+    "M007_E001_01": {
+      "family": "slime",
+      "metal": true
+    },
+    "M007_E001_P01": {
+      "family": "slime",
+      "metal": true
+    },
+    "M007_E081": {
+      "family": "slime",
+      "metal": true
+    },
+    "M007_E081_P01": {
+      "family": "slime",
+      "metal": true
+    },
+    "M007_E081_P02": {
+      "family": "slime",
+      "metal": true
+    },
+    "M007_E081_P03": {
+      "family": "slime",
+      "metal": true
+    },
+    "M007_E002": {
+      "family": "slime",
+      "metal": false
+    },
+    "M007_E082": {
+      "family": "slime",
+      "metal": false
+    },
+    "M007_E082_P01": {
+      "family": "slime",
+      "metal": false
+    },
+    "M007_E004": {
+      "family": "slime",
+      "metal": false
+    },
+    "M007_E004_T01": {
+      "family": "slime",
+      "metal": false
+    },
+    "M007_E094": {
+      "family": "slime",
+      "metal": false
+    },
+    "M014_E001": {
+      "family": "bird",
+      "metal": false
+    },
+    "M014_E001_S01": {
+      "family": "bird",
+      "metal": false
+    },
+    "M014_E001_S02": {
+      "family": "bird",
+      "metal": false
+    },
+    "M014_E081": {
+      "family": "bird",
+      "metal": false
+    },
+    "M014_E081_P01": {
+      "family": "bird",
+      "metal": false
+    },
+    "M014_E002": {
+      "family": "bird",
+      "metal": false
+    },
+    "M014_E082": {
+      "family": "bird",
+      "metal": false
+    },
+    "M014_E082_P01": {
+      "family": "bird",
+      "metal": false
+    },
+    "M014_E003": {
+      "family": "bird",
+      "metal": false
+    },
+    "M014_E003_01": {
+      "family": "bird",
+      "metal": false
+    },
+    "M014_E093": {
+      "family": "bird",
+      "metal": false
+    },
+    "M014_E004": {
+      "family": "bird",
+      "metal": false
+    },
+    "M014_E094": {
+      "family": "bird",
+      "metal": false
+    },
+    "M015_E001": {
+      "family": "bird",
+      "metal": false
+    },
+    "M015_E081": {
+      "family": "bird",
+      "metal": false
+    },
+    "M015_E081_01": {
+      "family": "bird",
+      "metal": false
+    },
+    "M015_E081_P01": {
+      "family": "bird",
+      "metal": false
+    },
+    "M015_E002": {
+      "family": "bird",
+      "metal": false
+    },
+    "M015_E003": {
+      "family": "bird",
+      "metal": false
+    },
+    "M015_E083": {
+      "family": "bird",
+      "metal": false
+    },
+    "M015_E004": {
+      "family": "bird",
+      "metal": false
+    },
+    "M016_E001": {
+      "family": "beast",
+      "metal": false
+    },
+    "M016_E001_T01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M016_E081": {
+      "family": "beast",
+      "metal": false
+    },
+    "M016_E081_P01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M016_E002": {
+      "family": "beast",
+      "metal": false
+    },
+    "M016_E092": {
+      "family": "beast",
+      "metal": false
+    },
+    "M016_E003": {
+      "family": "beast",
+      "metal": false
+    },
+    "M022_E001": {
+      "family": "demon",
+      "metal": false
+    },
+    "M022_E091": {
+      "family": "demon",
+      "metal": false
+    },
+    "M022_E002": {
+      "family": "demon",
+      "metal": false
+    },
+    "M022_E002_T01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M022_E003": {
+      "family": "demon",
+      "metal": false
+    },
+    "M022_E093": {
+      "family": "demon",
+      "metal": false
+    },
+    "M023_E001": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M023_E091": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M023_E002": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M023_E002_S01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M023_E002_S02": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M023_E082": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M031_E001": {
+      "family": "demon",
+      "metal": false
+    },
+    "M031_E001_S01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M031_E001_S02": {
+      "family": "demon",
+      "metal": false
+    },
+    "M031_E091": {
+      "family": "demon",
+      "metal": false
+    },
+    "M031_E002": {
+      "family": "demon",
+      "metal": false
+    },
+    "M031_E082": {
+      "family": "demon",
+      "metal": false
+    },
+    "M031_E004": {
+      "family": "demon",
+      "metal": false
+    },
+    "M031_E004_T01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M034_E001": {
+      "family": "slime",
+      "metal": false
+    },
+    "M034_E081": {
+      "family": "slime",
+      "metal": false
+    },
+    "M034_E081_S01": {
+      "family": "slime",
+      "metal": false
+    },
+    "M034_E081_P01": {
+      "family": "slime",
+      "metal": false
+    },
+    "M034_E002": {
+      "family": "slime",
+      "metal": false
+    },
+    "M034_E092": {
+      "family": "slime",
+      "metal": false
+    },
+    "M034_E003": {
+      "family": "slime",
+      "metal": false
+    },
+    "M034_E003_T01": {
+      "family": "slime",
+      "metal": false
+    },
+    "M034_E093": {
+      "family": "slime",
+      "metal": false
+    },
+    "M035_E001": {
+      "family": "demon",
+      "metal": false
+    },
+    "M035_E001_S01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M035_E081": {
+      "family": "demon",
+      "metal": false
+    },
+    "M035_E002": {
+      "family": "demon",
+      "metal": false
+    },
+    "M035_E092": {
+      "family": "demon",
+      "metal": false
+    },
+    "M035_E009": {
+      "family": "demon",
+      "metal": false
+    },
+    "M035_E009_S01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M035_E009_S02": {
+      "family": "demon",
+      "metal": false
+    },
+    "M036_E001": {
+      "family": "slime",
+      "metal": false
+    },
+    "M036_E001_01": {
+      "family": "slime",
+      "metal": false
+    },
+    "M036_E002": {
+      "family": "",
+      "metal": false
+    },
+    "M036_E082": {
+      "family": "",
+      "metal": false
+    },
+    "M036_E082_P01": {
+      "family": "",
+      "metal": false
+    },
+    "M036_E003": {
+      "family": "slime",
+      "metal": false
+    },
+    "M036_E003_T01": {
+      "family": "slime",
+      "metal": false
+    },
+    "M036_E083": {
+      "family": "slime",
+      "metal": false
+    },
+    "M036_E004": {
+      "family": "slime",
+      "metal": false
+    },
+    "M037_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M037_E002": {
+      "family": "",
+      "metal": false
+    },
+    "M037_E082": {
+      "family": "",
+      "metal": false
+    },
+    "M037_E082_P01": {
+      "family": "",
+      "metal": false
+    },
+    "M037_E003": {
+      "family": "",
+      "metal": false
+    },
+    "M037_E093": {
+      "family": "",
+      "metal": false
+    },
+    "M037_E005": {
+      "family": "",
+      "metal": false
+    },
+    "M037_E085": {
+      "family": "",
+      "metal": false
+    },
+    "M043_E001": {
+      "family": "undead",
+      "metal": false
+    },
+    "M043_E081": {
+      "family": "undead",
+      "metal": false
+    },
+    "M043_E081_01": {
+      "family": "undead",
+      "metal": false
+    },
+    "M043_E081_P01": {
+      "family": "undead",
+      "metal": false
+    },
+    "M043_E002": {
+      "family": "undead",
+      "metal": false
+    },
+    "M043_E082": {
+      "family": "undead",
+      "metal": false
+    },
+    "M043_E082_P01": {
+      "family": "undead",
+      "metal": false
+    },
+    "M043_E003": {
+      "family": "undead",
+      "metal": false
+    },
+    "M043_E003_S01": {
+      "family": "undead",
+      "metal": false
+    },
+    "M043_E003_T01": {
+      "family": "undead",
+      "metal": false
+    },
+    "M043_E083": {
+      "family": "undead",
+      "metal": false
+    },
+    "M043_E004": {
+      "family": "undead",
+      "metal": false
+    },
+    "M043_E084": {
+      "family": "undead",
+      "metal": false
+    },
+    "M043_E084_P01": {
+      "family": "undead",
+      "metal": false
+    },
+    "M043_E007": {
+      "family": "undead",
+      "metal": false
+    },
+    "M048_E001": {
+      "family": "beast",
+      "metal": false
+    },
+    "M048_E001_S01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M048_E001_S02": {
+      "family": "beast",
+      "metal": false
+    },
+    "M048_E091": {
+      "family": "beast",
+      "metal": false
+    },
+    "M048_E003": {
+      "family": "beast",
+      "metal": false
+    },
+    "M048_E083": {
+      "family": "beast",
+      "metal": false
+    },
+    "M048_E004": {
+      "family": "beast",
+      "metal": false
+    },
+    "M048_E094": {
+      "family": "beast",
+      "metal": false
+    },
+    "M049_E001": {
+      "family": "undead",
+      "metal": false
+    },
+    "M049_E091": {
+      "family": "undead",
+      "metal": false
+    },
+    "M049_E002": {
+      "family": "undead",
+      "metal": false
+    },
+    "M049_E002_T01": {
+      "family": "undead",
+      "metal": false
+    },
+    "M049_E082": {
+      "family": "undead",
+      "metal": false
+    },
+    "M049_E003": {
+      "family": "undead",
+      "metal": true
+    },
+    "M049_E003_P01": {
+      "family": "undead",
+      "metal": true
+    },
+    "M049_E003_T01": {
+      "family": "undead",
+      "metal": true
+    },
+    "M049_E083": {
+      "family": "undead",
+      "metal": true
+    },
+    "M052_E002": {
+      "family": "bird",
+      "metal": false
+    },
+    "M052_E082": {
+      "family": "bird",
+      "metal": false
+    },
+    "M052_E003": {
+      "family": "bird",
+      "metal": false
+    },
+    "M052_E083": {
+      "family": "bird",
+      "metal": false
+    },
+    "M052_E083_P01": {
+      "family": "bird",
+      "metal": false
+    },
+    "M052_E005": {
+      "family": "bird",
+      "metal": false
+    },
+    "M052_E006": {
+      "family": "bird",
+      "metal": false
+    },
+    "M052_E006_S01": {
+      "family": "bird",
+      "metal": false
+    },
+    "M052_E086": {
+      "family": "bird",
+      "metal": false
+    },
+    "M052_E086_S01": {
+      "family": "bird",
+      "metal": false
+    },
+    "M052_E086_P01": {
+      "family": "bird",
+      "metal": false
+    },
+    "M055_E001": {
+      "family": "material",
+      "metal": false
+    },
+    "M055_E091": {
+      "family": "material",
+      "metal": false
+    },
+    "M055_E002": {
+      "family": "material",
+      "metal": false
+    },
+    "M055_E002_01": {
+      "family": "material",
+      "metal": false
+    },
+    "M055_E092": {
+      "family": "material",
+      "metal": false
+    },
+    "M055_E003": {
+      "family": "material",
+      "metal": false
+    },
+    "M055_E083": {
+      "family": "material",
+      "metal": false
+    },
+    "M056_E001": {
+      "family": "material",
+      "metal": false
+    },
+    "M056_E002": {
+      "family": "material",
+      "metal": false
+    },
+    "M056_E092": {
+      "family": "material",
+      "metal": false
+    },
+    "M056_E003": {
+      "family": "material",
+      "metal": false
+    },
+    "M056_E083": {
+      "family": "material",
+      "metal": false
+    },
+    "M056_E004": {
+      "family": "material",
+      "metal": false
+    },
+    "M057_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M057_E091": {
+      "family": "",
+      "metal": false
+    },
+    "M057_E002": {
+      "family": "",
+      "metal": false
+    },
+    "M057_E092": {
+      "family": "",
+      "metal": false
+    },
+    "M060_E001": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M060_E091": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M060_E004": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M060_E004_T01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M061_E001": {
+      "family": "beast",
+      "metal": false
+    },
+    "M061_E081": {
+      "family": "beast",
+      "metal": false
+    },
+    "M061_E081_P01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M061_E002": {
+      "family": "material",
+      "metal": false
+    },
+    "M061_E092": {
+      "family": "material",
+      "metal": false
+    },
+    "M061_E004": {
+      "family": "beast",
+      "metal": false
+    },
+    "M061_E084": {
+      "family": "beast",
+      "metal": false
+    },
+    "M067_E001": {
+      "family": "machine",
+      "metal": false
+    },
+    "M067_E001_S01": {
+      "family": "machine",
+      "metal": false
+    },
+    "M067_E001_S02": {
+      "family": "machine",
+      "metal": false
+    },
+    "M067_E091": {
+      "family": "machine",
+      "metal": false
+    },
+    "M067_E002": {
+      "family": "machine",
+      "metal": false
+    },
+    "M067_E092": {
+      "family": "machine",
+      "metal": false
+    },
+    "M067_E003": {
+      "family": "machine",
+      "metal": false
+    },
+    "M067_E093": {
+      "family": "machine",
+      "metal": false
+    },
+    "M068_E001": {
+      "family": "slime",
+      "metal": false
+    },
+    "M068_E001_T01": {
+      "family": "slime",
+      "metal": false
+    },
+    "M068_E091": {
+      "family": "slime",
+      "metal": false
+    },
+    "M068_E002": {
+      "family": "slime",
+      "metal": false
+    },
+    "M068_E082": {
+      "family": "slime",
+      "metal": false
+    },
+    "M068_E082_P01": {
+      "family": "slime",
+      "metal": false
+    },
+    "M068_E003": {
+      "family": "slime",
+      "metal": false
+    },
+    "M072_E001": {
+      "family": "demon",
+      "metal": false
+    },
+    "M072_E081": {
+      "family": "demon",
+      "metal": false
+    },
+    "M072_E002": {
+      "family": "demon",
+      "metal": false
+    },
+    "M072_E002_P01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M072_E082": {
+      "family": "demon",
+      "metal": false
+    },
+    "M072_E082_P01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M072_E006": {
+      "family": "demon",
+      "metal": false
+    },
+    "M072_E006_T01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M085_E001": {
+      "family": "beast",
+      "metal": false
+    },
+    "M085_E081": {
+      "family": "beast",
+      "metal": false
+    },
+    "M085_E081_P01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M085_E002": {
+      "family": "beast",
+      "metal": false
+    },
+    "M085_E092": {
+      "family": "beast",
+      "metal": false
+    },
+    "M085_E003": {
+      "family": "beast",
+      "metal": false
+    },
+    "M086_E001": {
+      "family": "machine",
+      "metal": false
+    },
+    "M086_E001_T01": {
+      "family": "machine",
+      "metal": false
+    },
+    "M086_E091": {
+      "family": "machine",
+      "metal": false
+    },
+    "M086_E002": {
+      "family": "machine",
+      "metal": false
+    },
+    "M086_E002_01": {
+      "family": "machine",
+      "metal": false
+    },
+    "M086_E092": {
+      "family": "machine",
+      "metal": false
+    },
+    "M086_E003": {
+      "family": "machine",
+      "metal": false
+    },
+    "M086_E005": {
+      "family": "machine",
+      "metal": false
+    },
+    "M094_E001": {
+      "family": "demon",
+      "metal": false
+    },
+    "M094_E091": {
+      "family": "demon",
+      "metal": false
+    },
+    "M094_E002": {
+      "family": "demon",
+      "metal": false
+    },
+    "M094_E003": {
+      "family": "demon",
+      "metal": false
+    },
+    "M095_E001": {
+      "family": "demon",
+      "metal": false
+    },
+    "M095_E001_S01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M095_E091": {
+      "family": "demon",
+      "metal": false
+    },
+    "M095_E091_P01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M095_E002": {
+      "family": "demon",
+      "metal": false
+    },
+    "M095_E002_S01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M095_E092": {
+      "family": "demon",
+      "metal": false
+    },
+    "M095_E092_P01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M095_E003": {
+      "family": "demon",
+      "metal": false
+    },
+    "M095_E083": {
+      "family": "demon",
+      "metal": false
+    },
+    "M095_E083_P01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M095_E004": {
+      "family": "demon",
+      "metal": false
+    },
+    "M095_E084": {
+      "family": "demon",
+      "metal": false
+    },
+    "M095_E084_P01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M095_E005": {
+      "family": "demon",
+      "metal": false
+    },
+    "M095_E006": {
+      "family": "demon",
+      "metal": false
+    },
+    "M104_E001": {
+      "family": "machine",
+      "metal": false
+    },
+    "M104_E091": {
+      "family": "machine",
+      "metal": false
+    },
+    "M104_E002": {
+      "family": "machine",
+      "metal": false
+    },
+    "M104_E082": {
+      "family": "machine",
+      "metal": false
+    },
+    "M104_E082_P01": {
+      "family": "machine",
+      "metal": false
+    },
+    "M104_E003": {
+      "family": "machine",
+      "metal": false
+    },
+    "M104_E093": {
+      "family": "machine",
+      "metal": false
+    },
+    "M111_E001": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M111_E081": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M111_E002": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M111_E004": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M112_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M112_E091": {
+      "family": "",
+      "metal": false
+    },
+    "M112_E002": {
+      "family": "",
+      "metal": false
+    },
+    "M112_E082": {
+      "family": "",
+      "metal": false
+    },
+    "M112_E082_P01": {
+      "family": "",
+      "metal": false
+    },
+    "M112_E003": {
+      "family": "",
+      "metal": false
+    },
+    "M112_E093": {
+      "family": "",
+      "metal": false
+    },
+    "M123_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M123_E001_T01": {
+      "family": "",
+      "metal": false
+    },
+    "M123_E081": {
+      "family": "",
+      "metal": false
+    },
+    "M123_E081_P01": {
+      "family": "",
+      "metal": false
+    },
+    "M123_E002": {
+      "family": "",
+      "metal": false
+    },
+    "M123_E002_T01": {
+      "family": "",
+      "metal": false
+    },
+    "M123_E092": {
+      "family": "",
+      "metal": false
+    },
+    "M123_E003": {
+      "family": "",
+      "metal": false
+    },
+    "M123_E003_T01": {
+      "family": "",
+      "metal": false
+    },
+    "M123_E083": {
+      "family": "",
+      "metal": false
+    },
+    "M123_E004": {
+      "family": "",
+      "metal": false
+    },
+    "M123_E004_T01": {
+      "family": "",
+      "metal": false
+    },
+    "M124_E001": {
+      "family": "material",
+      "metal": false
+    },
+    "M124_E001_01": {
+      "family": "material",
+      "metal": false
+    },
+    "M124_E091": {
+      "family": "material",
+      "metal": false
+    },
+    "M124_E002": {
+      "family": "material",
+      "metal": false
+    },
+    "M124_E092": {
+      "family": "material",
+      "metal": false
+    },
+    "M124_E006": {
+      "family": "material",
+      "metal": false
+    },
+    "M124_E096": {
+      "family": "material",
+      "metal": false
+    },
+    "M125_E001": {
+      "family": "demon",
+      "metal": false
+    },
+    "M125_E001_S01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M125_E001_S02": {
+      "family": "demon",
+      "metal": false
+    },
+    "M125_E091": {
+      "family": "demon",
+      "metal": false
+    },
+    "M125_E002": {
+      "family": "demon",
+      "metal": false
+    },
+    "M125_E002_T01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M125_E082": {
+      "family": "demon",
+      "metal": false
+    },
+    "M125_E082_P01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M125_E003": {
+      "family": "demon",
+      "metal": false
+    },
+    "M125_E093": {
+      "family": "demon",
+      "metal": false
+    },
+    "M126_E001": {
+      "family": "beast",
+      "metal": false
+    },
+    "M126_E001_S01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M126_E091": {
+      "family": "beast",
+      "metal": false
+    },
+    "M126_E002": {
+      "family": "beast",
+      "metal": false
+    },
+    "M126_E002_T01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M126_E003": {
+      "family": "beast",
+      "metal": false
+    },
+    "M126_E003_T01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M131_E004_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M131_E094_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M148_E002": {
+      "family": "",
+      "metal": false
+    },
+    "M148_E002_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M148_E082": {
+      "family": "",
+      "metal": false
+    },
+    "M148_E003": {
+      "family": "",
+      "metal": false
+    },
+    "M148_E093": {
+      "family": "",
+      "metal": false
+    },
+    "M148_E005": {
+      "family": "",
+      "metal": false
+    },
+    "M148_E085": {
+      "family": "",
+      "metal": false
+    },
+    "M148_E006_Q01": {
+      "family": "",
+      "metal": false
+    },
+    "M151_E001": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M151_E091": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M151_E002": {
+      "family": "",
+      "metal": false
+    },
+    "M151_E002_S01": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M151_E082": {
+      "family": "",
+      "metal": false
+    },
+    "M151_E082_P01": {
+      "family": "",
+      "metal": false
+    },
+    "M151_E003": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M151_E083": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M151_E004": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M152_E001": {
+      "family": "material",
+      "metal": false
+    },
+    "M152_E091": {
+      "family": "material",
+      "metal": false
+    },
+    "M152_E002": {
+      "family": "material",
+      "metal": false
+    },
+    "M152_E002_T01": {
+      "family": "material",
+      "metal": false
+    },
+    "M152_E092": {
+      "family": "material",
+      "metal": false
+    },
+    "M152_E004": {
+      "family": "material",
+      "metal": false
+    },
+    "M152_E084": {
+      "family": "material",
+      "metal": false
+    },
+    "M158_E001": {
+      "family": "beast",
+      "metal": false
+    },
+    "M158_E001_P01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M158_E081": {
+      "family": "beast",
+      "metal": false
+    },
+    "M158_E081_01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M158_E081_P01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M158_E006": {
+      "family": "beast",
+      "metal": false
+    },
+    "M158_E007": {
+      "family": "beast",
+      "metal": false
+    },
+    "M158_E087": {
+      "family": "beast",
+      "metal": false
+    },
+    "M172_E001": {
+      "family": "material",
+      "metal": false
+    },
+    "M172_E081": {
+      "family": "material",
+      "metal": false
+    },
+    "M172_E081_01": {
+      "family": "material",
+      "metal": false
+    },
+    "M172_E081_P01": {
+      "family": "material",
+      "metal": false
+    },
+    "M172_E002": {
+      "family": "material",
+      "metal": false
+    },
+    "M172_E082": {
+      "family": "material",
+      "metal": false
+    },
+    "M172_E003": {
+      "family": "material",
+      "metal": false
+    },
+    "M172_E093": {
+      "family": "material",
+      "metal": false
+    },
+    "M172_E093_P01": {
+      "family": "material",
+      "metal": false
+    },
+    "M172_E007": {
+      "family": "material",
+      "metal": false
+    },
+    "M172_E007_S01": {
+      "family": "material",
+      "metal": false
+    },
+    "M172_E087": {
+      "family": "material",
+      "metal": false
+    },
+    "M172_E008_Q01": {
+      "family": "material",
+      "metal": false
+    },
+    "M175_E001": {
+      "family": "machine",
+      "metal": false
+    },
+    "M175_E081": {
+      "family": "machine",
+      "metal": false
+    },
+    "M175_E002": {
+      "family": "machine",
+      "metal": false
+    },
+    "M175_E007": {
+      "family": "machine",
+      "metal": false
+    },
+    "M175_E007_T01": {
+      "family": "machine",
+      "metal": false
+    },
+    "M203_E001": {
+      "family": "demon",
+      "metal": false
+    },
+    "M203_E001_S01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M203_E001_S02": {
+      "family": "demon",
+      "metal": false
+    },
+    "M203_E091": {
+      "family": "demon",
+      "metal": false
+    },
+    "M203_E002": {
+      "family": "demon",
+      "metal": false
+    },
+    "M203_E002_S01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M203_E003": {
+      "family": "demon",
+      "metal": false
+    },
+    "M206_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M206_E002": {
+      "family": "",
+      "metal": false
+    },
+    "M206_E003": {
+      "family": "",
+      "metal": false
+    },
+    "M206_E083": {
+      "family": "",
+      "metal": false
+    },
+    "M207_E001": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M207_E001_S01": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M207_E001_T01": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M207_E081": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M207_E002": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M207_E002_T01": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M207_E082": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M207_E006": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M207_E006_T01": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M207_E096": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M210_E001": {
+      "family": "machine",
+      "metal": false
+    },
+    "M210_E002": {
+      "family": "machine",
+      "metal": false
+    },
+    "M210_E003": {
+      "family": "machine",
+      "metal": false
+    },
+    "M210_E003_T01": {
+      "family": "machine",
+      "metal": false
+    },
+    "M210_E083": {
+      "family": "machine",
+      "metal": false
+    },
+    "M216_E003": {
+      "family": "demon",
+      "metal": false
+    },
+    "M216_E093": {
+      "family": "demon",
+      "metal": false
+    },
+    "M216_E004": {
+      "family": "demon",
+      "metal": false
+    },
+    "M216_E094_S01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M216_E005": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M216_E005_T01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M216_E006_S01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M216_E007_S01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M216_E086_S01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M216_E096_S01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M228_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M228_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M228_E081": {
+      "family": "",
+      "metal": false
+    },
+    "M228_E002": {
+      "family": "",
+      "metal": false
+    },
+    "M228_E082": {
+      "family": "",
+      "metal": false
+    },
+    "M228_E082_01": {
+      "family": "",
+      "metal": false
+    },
+    "M228_E082_P01": {
+      "family": "",
+      "metal": false
+    },
+    "M228_E003": {
+      "family": "",
+      "metal": false
+    },
+    "M228_E083": {
+      "family": "",
+      "metal": false
+    },
+    "M228_E083_P01": {
+      "family": "",
+      "metal": false
+    },
+    "M229_E001": {
+      "family": "slime",
+      "metal": false
+    },
+    "M229_E001_T01": {
+      "family": "slime",
+      "metal": false
+    },
+    "M229_E091": {
+      "family": "slime",
+      "metal": false
+    },
+    "M229_E002": {
+      "family": "slime",
+      "metal": false
+    },
+    "M229_E082": {
+      "family": "slime",
+      "metal": false
+    },
+    "M229_E082_P01": {
+      "family": "slime",
+      "metal": false
+    },
+    "M229_E003": {
+      "family": "slime",
+      "metal": false
+    },
+    "M229_E003_01": {
+      "family": "slime",
+      "metal": false
+    },
+    "M229_E083": {
+      "family": "slime",
+      "metal": false
+    },
+    "M501_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M501_E001_T01": {
+      "family": "",
+      "metal": false
+    },
+    "M501_E002": {
+      "family": "",
+      "metal": false
+    },
+    "M501_E082": {
+      "family": "",
+      "metal": false
+    },
+    "M501_E082_P01": {
+      "family": "",
+      "metal": false
+    },
+    "M501_E003": {
+      "family": "",
+      "metal": false
+    },
+    "M501_E004": {
+      "family": "",
+      "metal": false
+    },
+    "M502_E001": {
+      "family": "bird",
+      "metal": false
+    },
+    "M502_E001_T01": {
+      "family": "bird",
+      "metal": false
+    },
+    "M502_E091": {
+      "family": "bird",
+      "metal": false
+    },
+    "M502_E002": {
+      "family": "bird",
+      "metal": false
+    },
+    "M502_E082": {
+      "family": "bird",
+      "metal": false
+    },
+    "M502_E082_P01": {
+      "family": "bird",
+      "metal": false
+    },
+    "M502_E003": {
+      "family": "bird",
+      "metal": false
+    },
+    "M502_E083": {
+      "family": "bird",
+      "metal": false
+    },
+    "M503_E001": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M503_E001_T01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M503_E081": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M503_E081_P01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M503_E002": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M503_E092": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M503_E003": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M504_E001": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M504_E091": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M504_E002": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M504_E003": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M504_E003_S01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M504_E083": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M504_E004_S01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M505_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M505_E002": {
+      "family": "",
+      "metal": false
+    },
+    "M505_E092": {
+      "family": "",
+      "metal": false
+    },
+    "M505_E003": {
+      "family": "",
+      "metal": false
+    },
+    "M505_E003_T01": {
+      "family": "",
+      "metal": false
+    },
+    "M505_E083": {
+      "family": "",
+      "metal": false
+    },
+    "M506_E001": {
+      "family": "beast",
+      "metal": false
+    },
+    "M506_E001_S01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M506_E001_S02": {
+      "family": "beast",
+      "metal": false
+    },
+    "M506_E091": {
+      "family": "beast",
+      "metal": false
+    },
+    "M506_E002": {
+      "family": "beast",
+      "metal": false
+    },
+    "M506_E092": {
+      "family": "beast",
+      "metal": false
+    },
+    "M506_E003": {
+      "family": "beast",
+      "metal": false
+    },
+    "M506_E003_T01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M506_E083": {
+      "family": "beast",
+      "metal": false
+    },
+    "M506_E083_P01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M507_E001": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M507_E001_S01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M507_E091": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M507_E002": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M507_E092": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M507_E003": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M507_E083": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M509_E001": {
+      "family": "undead",
+      "metal": false
+    },
+    "M509_E091": {
+      "family": "undead",
+      "metal": false
+    },
+    "M509_E002": {
+      "family": "undead",
+      "metal": false
+    },
+    "M509_E002_T01": {
+      "family": "undead",
+      "metal": false
+    },
+    "M509_E002_S01": {
+      "family": "undead",
+      "metal": false
+    },
+    "M509_E002_S03": {
+      "family": "undead",
+      "metal": false
+    },
+    "M509_E082": {
+      "family": "undead",
+      "metal": false
+    },
+    "M509_E003": {
+      "family": "undead",
+      "metal": false
+    },
+    "M509_E006": {
+      "family": "material",
+      "metal": false
+    },
+    "M509_E006_S01": {
+      "family": "material",
+      "metal": false
+    },
+    "M509_E006_S02": {
+      "family": "material",
+      "metal": false
+    },
+    "M509_E086": {
+      "family": "material",
+      "metal": false
+    },
+    "M510_E001": {
+      "family": "demon",
+      "metal": false
+    },
+    "M510_E001_S01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M510_E091": {
+      "family": "demon",
+      "metal": false
+    },
+    "M510_E002": {
+      "family": "demon",
+      "metal": false
+    },
+    "M510_E082": {
+      "family": "demon",
+      "metal": false
+    },
+    "M510_E082_P01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M510_E003": {
+      "family": "demon",
+      "metal": false
+    },
+    "M513_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M513_E091": {
+      "family": "",
+      "metal": false
+    },
+    "M513_E002": {
+      "family": "",
+      "metal": false
+    },
+    "M513_E002_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M513_E002_T01": {
+      "family": "",
+      "metal": false
+    },
+    "M513_E092": {
+      "family": "",
+      "metal": false
+    },
+    "M513_E003": {
+      "family": "",
+      "metal": false
+    },
+    "M513_E083": {
+      "family": "",
+      "metal": false
+    },
+    "M513_E004": {
+      "family": "",
+      "metal": false
+    },
+    "M513_E004_T01": {
+      "family": "",
+      "metal": false
+    },
+    "M514_E001": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M514_E081": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M514_E002": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M514_E002_S01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M514_E092": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M514_E003": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M514_E093": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M515_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M515_E001_01": {
+      "family": "",
+      "metal": false
+    },
+    "M515_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M515_E001_T01": {
+      "family": "",
+      "metal": false
+    },
+    "M515_E081": {
+      "family": "",
+      "metal": false
+    },
+    "M515_E081_P01": {
+      "family": "",
+      "metal": false
+    },
+    "M515_E002": {
+      "family": "",
+      "metal": false
+    },
+    "M515_E002_T01": {
+      "family": "",
+      "metal": false
+    },
+    "M515_E082": {
+      "family": "",
+      "metal": false
+    },
+    "M515_E082_P01": {
+      "family": "",
+      "metal": false
+    },
+    "M515_E003": {
+      "family": "",
+      "metal": false
+    },
+    "M515_E003_T01": {
+      "family": "",
+      "metal": false
+    },
+    "M515_E093": {
+      "family": "",
+      "metal": false
+    },
+    "M515_E004": {
+      "family": "",
+      "metal": false
+    },
+    "M515_E004_T01": {
+      "family": "",
+      "metal": false
+    },
+    "M516_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M516_E081": {
+      "family": "",
+      "metal": false
+    },
+    "M516_E081_P01": {
+      "family": "",
+      "metal": false
+    },
+    "M516_E002": {
+      "family": "",
+      "metal": false
+    },
+    "M516_E082": {
+      "family": "",
+      "metal": false
+    },
+    "M516_E082_01": {
+      "family": "",
+      "metal": false
+    },
+    "M516_E082_P01": {
+      "family": "",
+      "metal": false
+    },
+    "M516_E003": {
+      "family": "",
+      "metal": false
+    },
+    "M516_E093": {
+      "family": "",
+      "metal": false
+    },
+    "M517_E001": {
+      "family": "undead",
+      "metal": false
+    },
+    "M517_E001_S01": {
+      "family": "undead",
+      "metal": false
+    },
+    "M517_E081": {
+      "family": "undead",
+      "metal": false
+    },
+    "M517_E002": {
+      "family": "undead",
+      "metal": false
+    },
+    "M517_E092": {
+      "family": "undead",
+      "metal": false
+    },
+    "M517_E003": {
+      "family": "undead",
+      "metal": false
+    },
+    "M519_E001": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M519_E001_01": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M519_E001_T01": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M519_E002": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M519_E002_S01": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M519_E002_S02": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M519_E002_T01": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M519_E003": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M519_E003_S01": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M519_E003_T01": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M520_E001": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M520_E091": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M520_E002": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M520_E002_T01": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M520_E082": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M520_E082_P01": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M520_E003": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M520_E093": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M521_E001": {
+      "family": "machine",
+      "metal": false
+    },
+    "M521_E091": {
+      "family": "machine",
+      "metal": false
+    },
+    "M521_E002": {
+      "family": "machine",
+      "metal": false
+    },
+    "M521_E092": {
+      "family": "machine",
+      "metal": false
+    },
+    "M521_E003": {
+      "family": "machine",
+      "metal": false
+    },
+    "M521_E003_T01": {
+      "family": "machine",
+      "metal": false
+    },
+    "M521_E083": {
+      "family": "machine",
+      "metal": false
+    },
+    "M521_E083_P01": {
+      "family": "machine",
+      "metal": false
+    },
+    "M521_E004": {
+      "family": "machine",
+      "metal": false
+    },
+    "M521_E084": {
+      "family": "machine",
+      "metal": false
+    },
+    "M522_E001": {
+      "family": "material",
+      "metal": false
+    },
+    "M522_E001_T01": {
+      "family": "material",
+      "metal": false
+    },
+    "M522_E001_Q01": {
+      "family": "material",
+      "metal": false
+    },
+    "M522_E091": {
+      "family": "material",
+      "metal": false
+    },
+    "M522_E091_Q01": {
+      "family": "material",
+      "metal": false
+    },
+    "M522_E002": {
+      "family": "material",
+      "metal": false
+    },
+    "M522_E092": {
+      "family": "material",
+      "metal": false
+    },
+    "M522_E003": {
+      "family": "material",
+      "metal": false
+    },
+    "M522_E083": {
+      "family": "material",
+      "metal": false
+    },
+    "M522_E004": {
+      "family": "material",
+      "metal": false
+    },
+    "M523_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M523_E081": {
+      "family": "",
+      "metal": false
+    },
+    "M523_E081_P01": {
+      "family": "",
+      "metal": false
+    },
+    "M523_E002": {
+      "family": "",
+      "metal": false
+    },
+    "M523_E082": {
+      "family": "",
+      "metal": false
+    },
+    "M523_E082_P01": {
+      "family": "",
+      "metal": false
+    },
+    "M523_E003": {
+      "family": "",
+      "metal": false
+    },
+    "M523_E093": {
+      "family": "",
+      "metal": false
+    },
+    "M525_E001": {
+      "family": "bird",
+      "metal": false
+    },
+    "M525_E081": {
+      "family": "bird",
+      "metal": false
+    },
+    "M525_E081_P01": {
+      "family": "bird",
+      "metal": false
+    },
+    "M525_E002": {
+      "family": "bird",
+      "metal": false
+    },
+    "M525_E092": {
+      "family": "bird",
+      "metal": false
+    },
+    "M525_E003": {
+      "family": "bird",
+      "metal": false
+    },
+    "M525_E003_T01": {
+      "family": "bird",
+      "metal": false
+    },
+    "M525_E083": {
+      "family": "bird",
+      "metal": false
+    },
+    "M525_E004": {
+      "family": "bird",
+      "metal": false
+    },
+    "M526_E001": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M526_E081": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M526_E002": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M526_E002_S01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M526_E092": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M526_E003": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M527_E001": {
+      "family": "beast",
+      "metal": false
+    },
+    "M527_E001_S01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M527_E001_P01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M527_E081": {
+      "family": "beast",
+      "metal": false
+    },
+    "M527_E081_P01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M527_E002": {
+      "family": "beast",
+      "metal": false
+    },
+    "M527_E082": {
+      "family": "beast",
+      "metal": false
+    },
+    "M527_E003": {
+      "family": "beast",
+      "metal": false
+    },
+    "M527_E003_T01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M527_E004": {
+      "family": "beast",
+      "metal": false
+    },
+    "M529_E001": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M529_E091": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M529_E002": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M529_E003": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M530_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M530_E001_P01": {
+      "family": "",
+      "metal": false
+    },
+    "M530_E091": {
+      "family": "",
+      "metal": false
+    },
+    "M530_E002": {
+      "family": "",
+      "metal": false
+    },
+    "M530_E082": {
+      "family": "",
+      "metal": false
+    },
+    "M530_E082_01": {
+      "family": "",
+      "metal": false
+    },
+    "M530_E082_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M530_E082_P01": {
+      "family": "",
+      "metal": false
+    },
+    "M530_E003": {
+      "family": "",
+      "metal": false
+    },
+    "M532_E001": {
+      "family": "material",
+      "metal": false
+    },
+    "M532_E001_T01": {
+      "family": "material",
+      "metal": false
+    },
+    "M532_E001_S01": {
+      "family": "material",
+      "metal": false
+    },
+    "M532_E091": {
+      "family": "material",
+      "metal": false
+    },
+    "M532_E002": {
+      "family": "material",
+      "metal": false
+    },
+    "M532_E003": {
+      "family": "material",
+      "metal": false
+    },
+    "M532_E093": {
+      "family": "material",
+      "metal": false
+    },
+    "M532_E004": {
+      "family": "material",
+      "metal": false
+    },
+    "M532_E084": {
+      "family": "material",
+      "metal": false
+    },
+    "M536_E001": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M536_E081": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M536_E081_P01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M536_E002": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M536_E092": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M536_E003": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M536_E003_T01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M536_E004_S01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M536_E094_S01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M537_E001": {
+      "family": "undead",
+      "metal": false
+    },
+    "M537_E081": {
+      "family": "undead",
+      "metal": false
+    },
+    "M537_E081_P01": {
+      "family": "undead",
+      "metal": false
+    },
+    "M537_E002": {
+      "family": "undead",
+      "metal": false
+    },
+    "M537_E092": {
+      "family": "undead",
+      "metal": false
+    },
+    "M537_E003": {
+      "family": "undead",
+      "metal": false
+    },
+    "M537_E083": {
+      "family": "undead",
+      "metal": false
+    },
+    "M539_E001": {
+      "family": "machine",
+      "metal": false
+    },
+    "M539_E001_S01": {
+      "family": "machine",
+      "metal": false
+    },
+    "M539_E081": {
+      "family": "machine",
+      "metal": false
+    },
+    "M539_E081_S01": {
+      "family": "machine",
+      "metal": false
+    },
+    "M539_E002": {
+      "family": "machine",
+      "metal": false
+    },
+    "M539_E002_S01": {
+      "family": "machine",
+      "metal": false
+    },
+    "M539_E082": {
+      "family": "machine",
+      "metal": false
+    },
+    "M539_E082_S01": {
+      "family": "machine",
+      "metal": false
+    },
+    "M539_E003": {
+      "family": "machine",
+      "metal": false
+    },
+    "M539_E003_S01": {
+      "family": "machine",
+      "metal": false
+    },
+    "M539_E004": {
+      "family": "machine",
+      "metal": false
+    },
+    "M539_E004_T01": {
+      "family": "machine",
+      "metal": false
+    },
+    "M540_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M540_E091": {
+      "family": "",
+      "metal": false
+    },
+    "M540_E002": {
+      "family": "",
+      "metal": false
+    },
+    "M540_E003": {
+      "family": "",
+      "metal": false
+    },
+    "M540_E003_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M540_E003_S02": {
+      "family": "",
+      "metal": false
+    },
+    "M540_E093": {
+      "family": "",
+      "metal": false
+    },
+    "M541_E001": {
+      "family": "undead",
+      "metal": false
+    },
+    "M541_E001_S01": {
+      "family": "undead",
+      "metal": false
+    },
+    "M541_E081": {
+      "family": "undead",
+      "metal": false
+    },
+    "M541_E002": {
+      "family": "undead",
+      "metal": false
+    },
+    "M541_E082": {
+      "family": "undead",
+      "metal": false
+    },
+    "M541_E003": {
+      "family": "undead",
+      "metal": false
+    },
+    "M542_E001": {
+      "family": "undead",
+      "metal": false
+    },
+    "M542_E081": {
+      "family": "undead",
+      "metal": false
+    },
+    "M542_E002": {
+      "family": "undead",
+      "metal": false
+    },
+    "M542_E002_T01": {
+      "family": "undead",
+      "metal": false
+    },
+    "M542_E002_S01": {
+      "family": "undead",
+      "metal": false
+    },
+    "M542_E082": {
+      "family": "undead",
+      "metal": false
+    },
+    "M542_E003": {
+      "family": "undead",
+      "metal": false
+    },
+    "M543_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M543_E001_T01": {
+      "family": "",
+      "metal": false
+    },
+    "M543_E091": {
+      "family": "",
+      "metal": false
+    },
+    "M543_E002": {
+      "family": "",
+      "metal": false
+    },
+    "M543_E002_T01": {
+      "family": "",
+      "metal": false
+    },
+    "M543_E082": {
+      "family": "",
+      "metal": false
+    },
+    "M543_E082_P01": {
+      "family": "",
+      "metal": false
+    },
+    "M543_E003": {
+      "family": "",
+      "metal": false
+    },
+    "M543_E083": {
+      "family": "",
+      "metal": false
+    },
+    "M545_E001": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M545_E081": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M545_E081_S01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M545_E081_P01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M545_E081_P02": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M545_E002": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M545_E002_Q01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M545_E092": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M545_E092_Q01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M545_E003": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M545_E005_S01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M545_E005_S02": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M546_E001": {
+      "family": "material",
+      "metal": false
+    },
+    "M546_E001_T01": {
+      "family": "material",
+      "metal": false
+    },
+    "M546_E081": {
+      "family": "material",
+      "metal": false
+    },
+    "M546_E081_01": {
+      "family": "material",
+      "metal": false
+    },
+    "M546_E081_P01": {
+      "family": "material",
+      "metal": false
+    },
+    "M546_E002": {
+      "family": "material",
+      "metal": false
+    },
+    "M546_E002_T01": {
+      "family": "material",
+      "metal": false
+    },
+    "M546_E092": {
+      "family": "material",
+      "metal": false
+    },
+    "M546_E003": {
+      "family": "material",
+      "metal": false
+    },
+    "M546_E083": {
+      "family": "material",
+      "metal": false
+    },
+    "M546_E083_P01": {
+      "family": "material",
+      "metal": false
+    },
+    "M546_E004": {
+      "family": "material",
+      "metal": false
+    },
+    "M547_E001": {
+      "family": "undead",
+      "metal": false
+    },
+    "M547_E091": {
+      "family": "undead",
+      "metal": false
+    },
+    "M547_E002": {
+      "family": "undead",
+      "metal": false
+    },
+    "M547_E003": {
+      "family": "undead",
+      "metal": false
+    },
+    "M547_E083": {
+      "family": "undead",
+      "metal": false
+    },
+    "M548_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M548_E081": {
+      "family": "",
+      "metal": false
+    },
+    "M548_E002": {
+      "family": "",
+      "metal": false
+    },
+    "M548_E092": {
+      "family": "",
+      "metal": false
+    },
+    "M548_E003": {
+      "family": "",
+      "metal": false
+    },
+    "M548_E093_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M551_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M551_E081": {
+      "family": "",
+      "metal": false
+    },
+    "M551_E081_P01": {
+      "family": "",
+      "metal": false
+    },
+    "M551_E002": {
+      "family": "",
+      "metal": false
+    },
+    "M551_E082": {
+      "family": "",
+      "metal": false
+    },
+    "M551_E082_01": {
+      "family": "",
+      "metal": false
+    },
+    "M551_E082_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M551_E082_P01": {
+      "family": "",
+      "metal": false
+    },
+    "M551_E003": {
+      "family": "",
+      "metal": false
+    },
+    "M551_E093": {
+      "family": "",
+      "metal": false
+    },
+    "M551_E004": {
+      "family": "",
+      "metal": false
+    },
+    "M553_E001": {
+      "family": "demon",
+      "metal": false
+    },
+    "M553_E081": {
+      "family": "demon",
+      "metal": false
+    },
+    "M553_E002": {
+      "family": "demon",
+      "metal": false
+    },
+    "M553_E003": {
+      "family": "demon",
+      "metal": false
+    },
+    "M553_E004_S01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M553_E084_S01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M555_E001": {
+      "family": "beast",
+      "metal": false
+    },
+    "M555_E081": {
+      "family": "beast",
+      "metal": false
+    },
+    "M555_E081_P01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M555_E002": {
+      "family": "beast",
+      "metal": false
+    },
+    "M555_E002_P01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M555_E003": {
+      "family": "beast",
+      "metal": false
+    },
+    "M555_E083": {
+      "family": "beast",
+      "metal": false
+    },
+    "M555_E083_P01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M556_E001": {
+      "family": "bird",
+      "metal": false
+    },
+    "M556_E091_S01": {
+      "family": "bird",
+      "metal": false
+    },
+    "M556_E002": {
+      "family": "bird",
+      "metal": false
+    },
+    "M556_E082": {
+      "family": "bird",
+      "metal": false
+    },
+    "M556_E082_01": {
+      "family": "bird",
+      "metal": false
+    },
+    "M556_E082_P01": {
+      "family": "bird",
+      "metal": false
+    },
+    "M556_E003": {
+      "family": "bird",
+      "metal": false
+    },
+    "M556_E003_S01": {
+      "family": "bird",
+      "metal": false
+    },
+    "M556_E093": {
+      "family": "bird",
+      "metal": false
+    },
+    "M556_E004": {
+      "family": "bird",
+      "metal": false
+    },
+    "M556_E004_T01": {
+      "family": "bird",
+      "metal": false
+    },
+    "M559_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M559_E091": {
+      "family": "",
+      "metal": false
+    },
+    "M559_E002": {
+      "family": "",
+      "metal": false
+    },
+    "M559_E092": {
+      "family": "",
+      "metal": false
+    },
+    "M559_E092_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M559_E092_S02": {
+      "family": "",
+      "metal": false
+    },
+    "M559_E003": {
+      "family": "",
+      "metal": false
+    },
+    "M559_E093_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M560_E001": {
+      "family": "beast",
+      "metal": false
+    },
+    "M560_E091": {
+      "family": "beast",
+      "metal": false
+    },
+    "M560_E002": {
+      "family": "beast",
+      "metal": false
+    },
+    "M560_E082": {
+      "family": "beast",
+      "metal": false
+    },
+    "M560_E003": {
+      "family": "beast",
+      "metal": false
+    },
+    "M560_E003_P01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M560_E004_S01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M560_E094_S01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M561_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M561_E091": {
+      "family": "",
+      "metal": false
+    },
+    "M561_E002": {
+      "family": "",
+      "metal": false
+    },
+    "M561_E003": {
+      "family": "",
+      "metal": false
+    },
+    "M561_E083": {
+      "family": "",
+      "metal": false
+    },
+    "M561_E083_P01": {
+      "family": "",
+      "metal": false
+    },
+    "M562_E001": {
+      "family": "slime",
+      "metal": false
+    },
+    "M562_E081": {
+      "family": "slime",
+      "metal": false
+    },
+    "M562_E081_P01": {
+      "family": "slime",
+      "metal": false
+    },
+    "M562_E002": {
+      "family": "slime",
+      "metal": false
+    },
+    "M562_E002_T01": {
+      "family": "slime",
+      "metal": false
+    },
+    "M562_E003": {
+      "family": "slime",
+      "metal": false
+    },
+    "M562_E093": {
+      "family": "slime",
+      "metal": false
+    },
+    "M562_E004": {
+      "family": "slime",
+      "metal": false
+    },
+    "M563_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M563_E081": {
+      "family": "",
+      "metal": false
+    },
+    "M563_E081_P01": {
+      "family": "",
+      "metal": false
+    },
+    "M563_E002": {
+      "family": "",
+      "metal": false
+    },
+    "M563_E082": {
+      "family": "",
+      "metal": false
+    },
+    "M563_E003": {
+      "family": "",
+      "metal": false
+    },
+    "M563_E003_T01": {
+      "family": "",
+      "metal": false
+    },
+    "M563_E093": {
+      "family": "",
+      "metal": false
+    },
+    "M563_E004": {
+      "family": "",
+      "metal": false
+    },
+    "M563_E005_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M564_E001": {
+      "family": "material",
+      "metal": false
+    },
+    "M564_E001_P01": {
+      "family": "material",
+      "metal": false
+    },
+    "M564_E081": {
+      "family": "material",
+      "metal": false
+    },
+    "M564_E002": {
+      "family": "material",
+      "metal": false
+    },
+    "M564_E002_T01": {
+      "family": "material",
+      "metal": false
+    },
+    "M564_E082": {
+      "family": "material",
+      "metal": false
+    },
+    "M564_E003": {
+      "family": "material",
+      "metal": false
+    },
+    "M564_E083": {
+      "family": "material",
+      "metal": false
+    },
+    "M564_E004": {
+      "family": "material",
+      "metal": false
+    },
+    "M564_E004_T01": {
+      "family": "material",
+      "metal": false
+    },
+    "M565_E001": {
+      "family": "demon",
+      "metal": false
+    },
+    "M565_E081": {
+      "family": "demon",
+      "metal": false
+    },
+    "M565_E002": {
+      "family": "demon",
+      "metal": false
+    },
+    "M565_E082": {
+      "family": "demon",
+      "metal": false
+    },
+    "M565_E082_P01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M565_E003": {
+      "family": "demon",
+      "metal": false
+    },
+    "M565_E003_P01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M565_E003_T01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M565_E004": {
+      "family": "demon",
+      "metal": false
+    },
+    "M565_E005_S01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M565_E005_T01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M565_E005_T02": {
+      "family": "demon",
+      "metal": false
+    },
+    "M566_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M566_E091": {
+      "family": "",
+      "metal": false
+    },
+    "M566_E002": {
+      "family": "",
+      "metal": false
+    },
+    "M566_E092": {
+      "family": "",
+      "metal": false
+    },
+    "M566_E003": {
+      "family": "",
+      "metal": false
+    },
+    "M566_E004": {
+      "family": "",
+      "metal": false
+    },
+    "M566_E004_T01": {
+      "family": "",
+      "metal": false
+    },
+    "M566_E094": {
+      "family": "",
+      "metal": false
+    },
+    "M567_E001": {
+      "family": "beast",
+      "metal": false
+    },
+    "M567_E091": {
+      "family": "beast",
+      "metal": false
+    },
+    "M567_E002": {
+      "family": "beast",
+      "metal": false
+    },
+    "M567_E003": {
+      "family": "beast",
+      "metal": false
+    },
+    "M567_E003_T01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M567_E083": {
+      "family": "beast",
+      "metal": false
+    },
+    "M567_E004_S01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M567_E094_S01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M568_E001": {
+      "family": "material",
+      "metal": false
+    },
+    "M568_E001_S01": {
+      "family": "material",
+      "metal": false
+    },
+    "M568_E001_S02": {
+      "family": "material",
+      "metal": false
+    },
+    "M568_E001_T01": {
+      "family": "material",
+      "metal": false
+    },
+    "M568_E091": {
+      "family": "material",
+      "metal": false
+    },
+    "M568_E002": {
+      "family": "material",
+      "metal": false
+    },
+    "M568_E002_T01": {
+      "family": "material",
+      "metal": false
+    },
+    "M568_E082": {
+      "family": "material",
+      "metal": false
+    },
+    "M568_E082_P01": {
+      "family": "material",
+      "metal": false
+    },
+    "M568_E003": {
+      "family": "material",
+      "metal": false
+    },
+    "M568_E003_T01": {
+      "family": "material",
+      "metal": false
+    },
+    "M568_E093": {
+      "family": "material",
+      "metal": false
+    },
+    "M568_E004": {
+      "family": "material",
+      "metal": false
+    },
+    "M568_E004_T01": {
+      "family": "material",
+      "metal": false
+    },
+    "M568_E084": {
+      "family": "material",
+      "metal": false
+    },
+    "M568_E005": {
+      "family": "material",
+      "metal": false
+    },
+    "M568_E005_T01": {
+      "family": "material",
+      "metal": false
+    },
+    "M568_E095": {
+      "family": "material",
+      "metal": false
+    },
+    "M569_E001": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M569_E001_S01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M569_E001_T01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M569_E002": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M569_E003": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M569_E093": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M569_E005_S01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M571_E001": {
+      "family": "undead",
+      "metal": false
+    },
+    "M571_E002": {
+      "family": "undead",
+      "metal": false
+    },
+    "M571_E092": {
+      "family": "undead",
+      "metal": false
+    },
+    "M571_E003": {
+      "family": "undead",
+      "metal": false
+    },
+    "M571_E083": {
+      "family": "undead",
+      "metal": false
+    },
+    "M571_E083_S01": {
+      "family": "undead",
+      "metal": false
+    },
+    "M571_E083_P01": {
+      "family": "undead",
+      "metal": false
+    },
+    "M572_E001": {
+      "family": "demon",
+      "metal": false
+    },
+    "M572_E081": {
+      "family": "demon",
+      "metal": false
+    },
+    "M572_E081_P01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M572_E002": {
+      "family": "demon",
+      "metal": false
+    },
+    "M572_E003": {
+      "family": "demon",
+      "metal": false
+    },
+    "M572_E003_S01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M572_E083": {
+      "family": "demon",
+      "metal": false
+    },
+    "M580_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M580_E091": {
+      "family": "",
+      "metal": false
+    },
+    "M580_E002": {
+      "family": "",
+      "metal": false
+    },
+    "M580_E003": {
+      "family": "",
+      "metal": false
+    },
+    "M580_E003_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M580_E003_S02": {
+      "family": "",
+      "metal": false
+    },
+    "M580_E093": {
+      "family": "",
+      "metal": false
+    },
+    "M581_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M581_E091": {
+      "family": "",
+      "metal": false
+    },
+    "M581_E002": {
+      "family": "",
+      "metal": false
+    },
+    "M581_E003": {
+      "family": "",
+      "metal": false
+    },
+    "M581_E003_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M581_E003_S02": {
+      "family": "",
+      "metal": false
+    },
+    "M581_E093": {
+      "family": "",
+      "metal": false
+    },
+    "M601_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M601_E001_S02": {
+      "family": "",
+      "metal": false
+    },
+    "M601_E002_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M602_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M602_E002_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M603_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M605_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M606_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M607_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M607_E002_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M607_E081_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M611_E001_S01": {
+      "family": "material",
+      "metal": false
+    },
+    "M614_E001_S01": {
+      "family": "undead",
+      "metal": false
+    },
+    "M614_E001_S02": {
+      "family": "undead",
+      "metal": false
+    },
+    "M614_E081_S01": {
+      "family": "undead",
+      "metal": false
+    },
+    "M614_E081_S02": {
+      "family": "undead",
+      "metal": false
+    },
+    "M615_E001_S01": {
+      "family": "material",
+      "metal": false
+    },
+    "M615_E081_S01": {
+      "family": "material",
+      "metal": false
+    },
+    "M616_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M616_E002_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M617_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M617_E001_S02": {
+      "family": "",
+      "metal": false
+    },
+    "M617_E001_S03": {
+      "family": "",
+      "metal": false
+    },
+    "M617_E001_S04": {
+      "family": "",
+      "metal": false
+    },
+    "M618_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M619_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M619_E001_S02": {
+      "family": "",
+      "metal": false
+    },
+    "M619_E001_S03": {
+      "family": "",
+      "metal": false
+    },
+    "M619_E001_S04": {
+      "family": "",
+      "metal": false
+    },
+    "M620_E001_S01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M620_E001_S02": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M620_E081_S01": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M621_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M622_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M701_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M702_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M703_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M704_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M705_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M706_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M707_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M707_E091_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M708_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M708_E001_S02": {
+      "family": "",
+      "metal": false
+    },
+    "M708_E001_S03": {
+      "family": "",
+      "metal": false
+    },
+    "M708_E001_S04": {
+      "family": "",
+      "metal": false
+    },
+    "M708_E091_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M709_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M709_E091_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M710_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M710_E091_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M712_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M712_E091_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M713_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M713_E001_S02": {
+      "family": "",
+      "metal": false
+    },
+    "M713_E001_S03": {
+      "family": "",
+      "metal": false
+    },
+    "M713_E002_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M714_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M714_E001_S02": {
+      "family": "",
+      "metal": false
+    },
+    "M714_E002_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M715_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M716_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M716_E001_S02": {
+      "family": "",
+      "metal": false
+    },
+    "M717_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M717_E001_S02": {
+      "family": "",
+      "metal": false
+    },
+    "M718_E001_T01": {
+      "family": "",
+      "metal": false
+    },
+    "M718_E001_T02": {
+      "family": "",
+      "metal": false
+    },
+    "M718_E001_T03": {
+      "family": "",
+      "metal": false
+    },
+    "M718_E001_T04": {
+      "family": "",
+      "metal": false
+    },
+    "M719_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M720_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M721_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M722_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M722_E002_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M723_E001_S01": {
+      "family": "",
+      "metal": false
+    },
+    "M723_E001_T01": {
+      "family": "",
+      "metal": false
+    },
+    "M801_E001": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M802_E001": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M803_E001": {
+      "family": "material",
+      "metal": false
+    },
+    "M804_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M805_E001": {
+      "family": "material",
+      "metal": false
+    },
+    "M806_E001": {
+      "family": "material",
+      "metal": false
+    },
+    "M807_E001": {
+      "family": "machine",
+      "metal": false
+    },
+    "M808_E001": {
+      "family": "demon",
+      "metal": false
+    },
+    "M809_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M810_E001": {
+      "family": "bird",
+      "metal": false
+    },
+    "M811_E001": {
+      "family": "demon",
+      "metal": false
+    },
+    "M811_E001_01": {
+      "family": "demon",
+      "metal": false
+    },
+    "M812_E001": {
+      "family": "undead",
+      "metal": false
+    },
+    "M813_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M814_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M815_E001": {
+      "family": "beast",
+      "metal": false
+    },
+    "M816_E001": {
+      "family": "demon",
+      "metal": false
+    },
+    "M817_E001": {
+      "family": "machine",
+      "metal": false
+    },
+    "M818_E001": {
+      "family": "undead",
+      "metal": false
+    },
+    "M818_E001_01": {
+      "family": "undead",
+      "metal": false
+    },
+    "M819_E001": {
+      "family": "demon",
+      "metal": false
+    },
+    "M820_E001": {
+      "family": "material",
+      "metal": false
+    },
+    "M821_E001": {
+      "family": "undead",
+      "metal": false
+    },
+    "M822_E001": {
+      "family": "material",
+      "metal": false
+    },
+    "M823_E001": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M825_E001": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M826_E001": {
+      "family": "slime",
+      "metal": false
+    },
+    "M827_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M828_E001": {
+      "family": "demon",
+      "metal": false
+    },
+    "M829_E001": {
+      "family": "beast",
+      "metal": false
+    },
+    "M830_E001": {
+      "family": "demon",
+      "metal": false
+    },
+    "M831_E001": {
+      "family": "bird",
+      "metal": false
+    },
+    "M832_E001": {
+      "family": "machine",
+      "metal": false
+    },
+    "M833_E001": {
+      "family": "beast",
+      "metal": false
+    },
+    "M833_E001_01": {
+      "family": "beast",
+      "metal": false
+    },
+    "M834_E001": {
+      "family": "bird",
+      "metal": false
+    },
+    "M835_E001": {
+      "family": "beast",
+      "metal": false
+    },
+    "M836_E001": {
+      "family": "undead",
+      "metal": false
+    },
+    "M837_E001": {
+      "family": "undead",
+      "metal": false
+    },
+    "M838_E001": {
+      "family": "undead",
+      "metal": false
+    },
+    "M839_E001": {
+      "family": "dragon",
+      "metal": false
+    },
+    "M840_E001": {
+      "family": "demon",
+      "metal": false
+    },
+    "M841_E001": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M842_E001": {
+      "family": "beast",
+      "metal": false
+    },
+    "M843_E001": {
+      "family": "demon",
+      "metal": false
+    },
+    "M844_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M845_E001": {
+      "family": "undead",
+      "metal": false
+    },
+    "M846_E001": {
+      "family": "undead",
+      "metal": false
+    },
+    "M847_E001": {
+      "family": "bird",
+      "metal": false
+    },
+    "M848_E001": {
+      "family": "beast",
+      "metal": false
+    },
+    "M849_E001": {
+      "family": "beast",
+      "metal": false
+    },
+    "M852_E001": {
+      "family": "demon",
+      "metal": false
+    },
+    "M853_E001": {
+      "family": "material",
+      "metal": false
+    },
+    "M854_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M855_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M856_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M857_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M858_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M859_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M860_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M861_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M862_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M863_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M864_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M865_E001": {
+      "family": "elemental",
+      "metal": false
+    },
+    "M866_E001": {
+      "family": "material",
+      "metal": false
+    },
+    "M867_E001": {
+      "family": "material",
+      "metal": false
+    },
+    "M868_E001": {
+      "family": "material",
+      "metal": false
+    },
+    "M869_E001": {
+      "family": "demon",
+      "metal": false
+    },
+    "M870_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M871_E001": {
+      "family": "beast",
+      "metal": false
+    },
+    "M872_E001": {
+      "family": "slime",
+      "metal": false
+    },
+    "M999_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M999_E001_t01": {
+      "family": "",
+      "metal": false
+    },
+    "M999_E001_t02": {
+      "family": "",
+      "metal": false
+    },
+    "M999_E002": {
+      "family": "",
+      "metal": false
+    },
+    "M999_E012": {
+      "family": "",
+      "metal": false
+    },
+    "M999_E014": {
+      "family": "machine",
+      "metal": false
+    },
+    "M999_E015": {
+      "family": "machine",
+      "metal": false
+    },
+    "M999_E016": {
+      "family": "machine",
+      "metal": false
+    },
+    "M999_E017": {
+      "family": "machine",
+      "metal": false
+    },
+    "M999_E010": {
+      "family": "",
+      "metal": false
+    },
+    "M999_E011": {
+      "family": "",
+      "metal": false
+    },
+    "M999_E003": {
+      "family": "",
+      "metal": true
+    },
+    "M999_E004": {
+      "family": "",
+      "metal": true
+    },
+    "M999_E008": {
+      "family": "",
+      "metal": false
+    },
+    "M999_E007": {
+      "family": "",
+      "metal": false
+    },
+    "M999_E006": {
+      "family": "",
+      "metal": false
+    },
+    "M999_E009": {
+      "family": "",
+      "metal": false
+    },
+    "M999_E005": {
+      "family": "",
+      "metal": false
+    },
+    "M999_E013": {
+      "family": "",
+      "metal": false
+    },
+    "F506_E001": {
+      "family": "",
+      "metal": false
+    },
+    "M999_E100": {
+      "family": "undead",
+      "metal": false
+    },
+    "M999_E101": {
+      "family": "material",
+      "metal": false
+    },
+    "M999_E102": {
+      "family": "machine",
+      "metal": false
+    },
+    "M999_E103": {
+      "family": "",
+      "metal": false
+    },
+    "M999_E104": {
+      "family": "",
+      "metal": false
+    },
+    "M999_E105": {
+      "family": "slime",
+      "metal": false
+    },
+    "M999_E106": {
+      "family": "",
+      "metal": false
+    },
+    "M999_E107": {
+      "family": "material",
+      "metal": false
+    },
+    "M_Re080_C1": {
+      "family": "",
+      "metal": false
+    },
+    "M_Re080_C2": {
+      "family": "",
+      "metal": false
+    },
+    "M_Re110_C1": {
+      "family": "slime",
+      "metal": false
+    },
+    "M_Re110_C2": {
+      "family": "slime",
+      "metal": false
+    },
+    "M_Re610_C1": {
+      "family": "bird",
+      "metal": false
+    },
+    "M_Re610_C2": {
+      "family": "bird",
+      "metal": false
+    },
+    "M999_B001": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B002": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B003": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B004": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B005": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B006": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B007": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B008": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B009": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B010": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B011": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B012": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B013": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B014": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B015": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B016": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B017": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B018": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B019": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B020": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B021": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B022": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B023": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B024": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B025": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B026": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B027": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B028": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B029": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B030": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B031": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B032": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B033": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B034": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B035": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B036": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B037": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B038": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B039": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B040": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B041": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B042": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B043": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B044": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B045": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B046": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B047": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B048": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B049": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B050": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B051": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B052": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B053": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B054": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B055": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B056": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B057": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B058": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B059": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B060": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B061": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B062": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B063": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B064": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B065": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B066": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B067": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B068": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B069": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B070": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B071": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B072": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B073": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B074": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B075": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B076": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B077": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B078": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B079": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B080": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B081": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B082": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B083": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B084": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B085": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B086": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B087": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B088": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B089": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B090": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B091": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B092": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B093": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B094": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B095": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B096": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B097": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B098": {
+      "family": "",
+      "metal": false
+    },
+    "M999_B099": {
+      "family": "",
+      "metal": false
+    }
+  },
+  "negative_stat_effects": [
+    "ODD_OFF_DOWN1",
+    "ODD_OFF_DOWN2",
+    "ODD_OFF_DOWN3",
+    "ODD_DEF_DOWN1",
+    "ODD_DEF_DOWN2",
+    "ODD_SUBAYASA_DOWN1",
+    "ODD_SUBAYASA_DOWN2",
+    "ODD_KOUGEKIJUMON_DOWN1",
+    "ODD_KOUGEKIJUMON_DOWN2",
+    "ODD_KAIFUKUJUMON_DOWN1",
+    "ODD_KAIFUKUJUMON_DOWN2",
+    "ODD_DMCUT_MAGIC_DOWN1",
+    "ODD_DMCUT_MAGIC_DOWN2"
+  ],
+  "source": "Owned native monster and odd-effect tables"
+}

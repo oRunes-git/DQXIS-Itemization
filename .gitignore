@@ -1,0 +1,11 @@
+build/
+*.obj
+*.pdb
+*.ilk
+*.log
+*.jsonl
+__pycache__/
+state/
+backups/
+*.sav
+*.bak

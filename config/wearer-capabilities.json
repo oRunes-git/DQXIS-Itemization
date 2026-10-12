@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "policy": "Eventual capabilities of any permitted wearer; unaffected by current wearer or skill unlocks.",
+  "characters": {
+    "P001": [
+      "damage_element_fire",
+      "damage_element_ice",
+      "damage_element_light",
+      "damage_element_lightning",
+      "damage_spell",
+      "healing_action",
+      "mp_action",
+      "skill_family_greatsword",
+      "skill_family_sword"
+    ],
+    "P002": [
+      "damage_element_earth",
+      "damage_element_fire",
+      "damage_element_light",
+      "damage_spell",
+      "mp_action",
+      "skill_family_boomerang",
+      "skill_family_dagger",
+      "skill_family_sword"
+    ],
+    "P003": [
+      "damage_element_fire",
+      "damage_element_ice",
+      "damage_element_light",
+      "damage_element_lightning",
+      "damage_spell",
+      "healing_action",
+      "mp_action",
+      "skill_family_heavy_wand",
+      "skill_family_whip"
+    ],
+    "P004": [
+      "damage_element_ice",
+      "damage_element_light",
+      "damage_element_wind",
+      "damage_spell",
+      "healing_action",
+      "mp_action",
+      "skill_family_heavy_wand",
+      "skill_family_spear",
+      "skill_family_wand",
+      "skill_family_whip"
+    ],
+    "P005": [
+      "damage_element_fire",
+      "damage_element_light",
+      "damage_element_wind",
+      "damage_spell",
+      "healing_action",
+      "mp_action",
+      "skill_family_dagger",
+      "skill_family_sword",
+      "skill_family_whip"
+    ],
+    "P006": [
+      "damage_element_ice",
+      "damage_element_lightning",
+      "damage_element_wind",
+      "mp_action",
+      "skill_family_claw",
+      "skill_family_spear"
+    ],
+    "P007": [
+      "damage_element_dark",
+      "damage_element_ice",
+      "damage_element_light",
+      "damage_element_wind",
+      "damage_spell",
+      "healing_action",
+      "mp_action",
+      "skill_family_claw",
+      "skill_family_heavy_wand"
+    ],
+    "P008": [
+      "damage_element_fire",
+      "damage_element_ice",
+      "healing_action",
+      "mp_action",
+      "skill_family_axe",
+      "skill_family_greatsword",
+      "skill_family_sword"
+    ]
+  },
+  "sources": [
+    "DT_LevelUp_P001-P008",
+    "DT_UITokugiPanelSkillLine",
+    "DT_TokugiPanelInfoTable",
+    "DT_Action",
+    "DT_ActionDamage"
+  ],
+  "authored_overrides": {
+    "P005": [
+      "healing_action (Hustle Dance)"
+    ]
+  }
+}

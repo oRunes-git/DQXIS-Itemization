@@ -1,0 +1,980 @@
+{
+  "schema_version": 1,
+  "version": "veyl-kingmaker-v1.15.0",
+  "currencies": [
+    {
+      "id": "shifting",
+      "name": "Veyl of Renewing",
+      "description": "Recreates all modifiers on Normal or Magic equipment.",
+      "native_id": "I_VEYL_SHIFTING",
+      "cost": 1,
+      "rare_cost": 1,
+      "tier_costs": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "icon_name": "T_Hud_Icon_Item_VYL_00001"
+    },
+    {
+      "id": "waking",
+      "name": "Veyl of Enchanting",
+      "description": "Raises Normal equipment to Magic, keeping its modifiers and adding one.",
+      "native_id": "I_VEYL_WAKING",
+      "cost": 1,
+      "rare_cost": 1,
+      "tier_costs": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "icon_name": "T_Hud_Icon_Item_VYL_00002"
+    },
+    {
+      "id": "binding",
+      "name": "Veyl of Growing",
+      "description": "Adds one random eligible modifier to an empty slot.",
+      "native_id": "I_VEYL_BINDING",
+      "cost": 1,
+      "rare_cost": 2,
+      "tier_costs": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "icon_name": "T_Hud_Icon_Item_VYL_00003"
+    },
+    {
+      "id": "blooming",
+      "name": "Veyl of Ascending",
+      "description": "Raises Magic equipment to Rare, keeping its modifiers and adding one.",
+      "native_id": "I_VEYL_BLOOMING",
+      "cost": 1,
+      "rare_cost": 1,
+      "tier_costs": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "icon_name": "T_Hud_Icon_Item_VYL_00004"
+    },
+    {
+      "id": "tempest",
+      "name": "Veyl of Reforming",
+      "description": "Recreates all five modifiers on Rare equipment.",
+      "native_id": "I_VEYL_TEMPEST",
+      "cost": 1,
+      "rare_cost": 1,
+      "tier_costs": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "icon_name": "T_Hud_Icon_Item_VYL_00005"
+    },
+    {
+      "id": "severing",
+      "name": "Veyl of Erasing",
+      "description": "Removes one random modifier. Rarity is unchanged.",
+      "native_id": "I_VEYL_SEVERING",
+      "cost": 1,
+      "rare_cost": 1,
+      "tier_costs": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "icon_name": "T_Hud_Icon_Item_VYL_00006"
+    },
+    {
+      "id": "tuning",
+      "name": "Veyl of Attuning",
+      "description": "Rerolls the selected modifier value within its tier. It can improve or worsen.",
+      "native_id": "I_VEYL_TUNING",
+      "cost": 1,
+      "rare_cost": 1,
+      "tier_costs": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "icon_name": "T_Hud_Icon_Item_VYL_00007"
+    },
+    {
+      "id": "surging",
+      "name": "Veyl of Empowering",
+      "description": "Raises the selected modifier by one tier and rolls its value. Class limits apply.",
+      "native_id": "I_VEYL_SURGING",
+      "cost": 1,
+      "rare_cost": 1,
+      "tier_costs": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "icon_name": "T_Hud_Icon_Item_VYL_00008"
+    },
+    {
+      "id": "kingmaker",
+      "name": "Veyl of the Kingmaker",
+      "description": "Raises item Class by 1, up to Class 15. Keeps all modifiers, rolls and quality unchanged.",
+      "native_id": "I_VEYL_KINGMAKER",
+      "cost": 1,
+      "rare_cost": 1,
+      "tier_costs": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "icon_name": "T_Hud_Icon_Item_VYL_00009",
+      "acquisition_flag": "ARPG_VEYL_KINGMAKER_ACQUIRED",
+      "hidden_until_acquired": true
+    }
+  ],
+  "craft_tier_weights": [
+    1000,
+    1000,
+    1000,
+    850,
+    850,
+    650,
+    650,
+    650,
+    450,
+    450,
+    300,
+    300,
+    190,
+    190,
+    190,
+    110,
+    110,
+    60,
+    60,
+    60,
+    30,
+    30,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12
+  ],
+  "drop_pools": [
+    {
+      "id": "common",
+      "initial_bp": 3000,
+      "per_boss_bp": 40,
+      "maximum_bp": 5000,
+      "minimum_class": 1,
+      "weights": {
+        "shifting": 35,
+        "waking": 20,
+        "binding": 25,
+        "tuning": 20
+      }
+    },
+    {
+      "id": "advanced",
+      "initial_bp": 200,
+      "per_boss_bp": 15,
+      "maximum_bp": 1000,
+      "minimum_class": 1,
+      "weights": {
+        "blooming": 35,
+        "tempest": 40,
+        "severing": 25
+      }
+    },
+    {
+      "id": "exceptional",
+      "initial_bp": 20,
+      "per_boss_bp": 3,
+      "maximum_bp": 150,
+      "minimum_class": 4,
+      "weights": {
+        "surging": 100
+      }
+    }
+  ],
+  "boss_bundle": {
+    "shifting": 2,
+    "binding": 2,
+    "tuning": 1,
+    "blooming": 1,
+    "surging": 1
+  },
+  "story_bundle": {
+    "shifting": 1,
+    "tuning": 1,
+    "severing": 1
+  },
+  "late_boss_minimum_class": 6,
+  "late_boss_bonus": {
+    "tempest": 2,
+    "severing": 1,
+    "surging": 1
+  },
+  "migration_flag": "ARPG_VEYL_REWARDS_INITIALIZED",
+  "encounters": [
+    {
+      "event_id": "EventBattle_A010_010",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_A010_010"
+    },
+    {
+      "event_id": "EventBattle_A010_020",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_A010_020"
+    },
+    {
+      "event_id": "EventBattle_A020_010",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_A020_010"
+    },
+    {
+      "event_id": "EventBattle_A020_020",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_A020_020"
+    },
+    {
+      "event_id": "EventBattle_A020_030",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_A020_030"
+    },
+    {
+      "event_id": "EventBattle_A020_040",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_A020_040"
+    },
+    {
+      "event_id": "EventBattle_A020_050",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_A020_050"
+    },
+    {
+      "event_id": "EventBattle_A030_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_A030_010"
+    },
+    {
+      "event_id": "EventBattle_A050_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_A050_010"
+    },
+    {
+      "event_id": "EventBattle_A060_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_A060_010"
+    },
+    {
+      "event_id": "EventBattle_A070_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_A070_010"
+    },
+    {
+      "event_id": "EventBattle_A080_010",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_A080_010"
+    },
+    {
+      "event_id": "EventBattle_A080_030",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_A080_030"
+    },
+    {
+      "event_id": "EventBattle_A080_050",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_A080_050"
+    },
+    {
+      "event_id": "EventBattle_A100_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_A100_010"
+    },
+    {
+      "event_id": "EventBattle_A100_020",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_A100_020"
+    },
+    {
+      "event_id": "EventBattle_A100_030",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_A100_030"
+    },
+    {
+      "event_id": "EventBattle_A100_040",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_A100_040"
+    },
+    {
+      "event_id": "EventBattle_A100_050",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_A100_050"
+    },
+    {
+      "event_id": "EventBattle_A100_060",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_A100_060"
+    },
+    {
+      "event_id": "EventBattle_A130_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_A130_010"
+    },
+    {
+      "event_id": "EventBattle_A140_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_A140_010"
+    },
+    {
+      "event_id": "EventBattle_A150_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_A150_010"
+    },
+    {
+      "event_id": "EventBattle_A150_020",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_A150_020"
+    },
+    {
+      "event_id": "EventBattle_A170_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_A170_010"
+    },
+    {
+      "event_id": "EventBattle_A170_020",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_A170_020"
+    },
+    {
+      "event_id": "EventBattle_A180_010",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_A180_010"
+    },
+    {
+      "event_id": "EventBattle_B020_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B020_010"
+    },
+    {
+      "event_id": "EventBattle_B020_020",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B020_020"
+    },
+    {
+      "event_id": "EventBattle_B020_030",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B020_030"
+    },
+    {
+      "event_id": "EventBattle_B020_040",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B020_040"
+    },
+    {
+      "event_id": "EventBattle_B020_050",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B020_050"
+    },
+    {
+      "event_id": "EventBattle_B020_060",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B020_060"
+    },
+    {
+      "event_id": "EventBattle_B020_070",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B020_070"
+    },
+    {
+      "event_id": "EventBattle_B020_080",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B020_080"
+    },
+    {
+      "event_id": "EventBattle_B020_090",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B020_090"
+    },
+    {
+      "event_id": "EventBattle_B030_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B030_010"
+    },
+    {
+      "event_id": "EventBattle_B040_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B040_010"
+    },
+    {
+      "event_id": "EventBattle_B060_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B060_010"
+    },
+    {
+      "event_id": "EventBattle_B060_020",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B060_020"
+    },
+    {
+      "event_id": "EventBattle_B080_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B080_010"
+    },
+    {
+      "event_id": "EventBattle_B080_020",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B080_020"
+    },
+    {
+      "event_id": "EventBattle_B080_030",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B080_030"
+    },
+    {
+      "event_id": "EventBattle_B080_040",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B080_040"
+    },
+    {
+      "event_id": "EventBattle_B080_050",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B080_050"
+    },
+    {
+      "event_id": "EventBattle_B080_060",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B080_060"
+    },
+    {
+      "event_id": "EventBattle_B080_070",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B080_070"
+    },
+    {
+      "event_id": "EventBattle_B080_080",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B080_080"
+    },
+    {
+      "event_id": "EventBattle_B080_090",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B080_090"
+    },
+    {
+      "event_id": "EventBattle_B090_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B090_010"
+    },
+    {
+      "event_id": "EventBattle_B090_030",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B090_030"
+    },
+    {
+      "event_id": "EventBattle_B100_010",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B100_010"
+    },
+    {
+      "event_id": "EventBattle_B100_020",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B100_020"
+    },
+    {
+      "event_id": "EventBattle_B110_010",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B110_010"
+    },
+    {
+      "event_id": "EventBattle_B110_020",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B110_020"
+    },
+    {
+      "event_id": "EventBattle_B110_030",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B110_030"
+    },
+    {
+      "event_id": "EventBattle_B120_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B120_010"
+    },
+    {
+      "event_id": "EventBattle_B160_040",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B160_040"
+    },
+    {
+      "event_id": "EventBattle_B160_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B160_010"
+    },
+    {
+      "event_id": "EventBattle_B160_020",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B160_020"
+    },
+    {
+      "event_id": "EventBattle_B160_030",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_B160_030"
+    },
+    {
+      "event_id": "EventBattle_C010_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_C010_010"
+    },
+    {
+      "event_id": "EventBattle_C010_020",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_C010_020"
+    },
+    {
+      "event_id": "EventBattle_C020_040",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_C020_040"
+    },
+    {
+      "event_id": "EventBattle_C050_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_C050_010"
+    },
+    {
+      "event_id": "EventBattle_C090_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_C090_010"
+    },
+    {
+      "event_id": "EventBattle_C090_020",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_C090_020"
+    },
+    {
+      "event_id": "EventBattle_C100_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_C100_010"
+    },
+    {
+      "event_id": "EventBattle_C110_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_C110_010"
+    },
+    {
+      "event_id": "EventBattle_C120_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_C120_010"
+    },
+    {
+      "event_id": "EventBattle_C130_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_C130_010"
+    },
+    {
+      "event_id": "EventBattle_C140_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_C140_010"
+    },
+    {
+      "event_id": "EventBattle_C160_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_C160_010"
+    },
+    {
+      "event_id": "EventBattle_C210_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_C210_010"
+    },
+    {
+      "event_id": "EventBattle_C250_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_C250_010"
+    },
+    {
+      "event_id": "EventBattle_C260_010",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_C260_010"
+    },
+    {
+      "event_id": "EventBattle_C270_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_C270_010"
+    },
+    {
+      "event_id": "EventBattle_S020_010",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_S020_010"
+    },
+    {
+      "event_id": "EventBattle_S020_030",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_S020_030"
+    },
+    {
+      "event_id": "EventBattle_S020_040",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_S020_040"
+    },
+    {
+      "event_id": "EventBattle_S030_010",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_S030_010"
+    },
+    {
+      "event_id": "EventBattle_S030_020",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_S030_020"
+    },
+    {
+      "event_id": "EventBattle_S030_030",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_S030_030"
+    },
+    {
+      "event_id": "EventBattle_S030_040",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_S030_040"
+    },
+    {
+      "event_id": "EventBattle_S040_010",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_S040_010"
+    },
+    {
+      "event_id": "EventBattle_S050_010",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_S050_010"
+    },
+    {
+      "event_id": "EventBattle_S050_020",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_S050_020"
+    },
+    {
+      "event_id": "EventBattle_S050_021",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_S050_021"
+    },
+    {
+      "event_id": "EventBattle_S050_022",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_S050_022"
+    },
+    {
+      "event_id": "EventBattle_S050_030",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_S050_030"
+    },
+    {
+      "event_id": "EventBattle_S050_040",
+      "kind": "boss",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_S050_040"
+    },
+    {
+      "event_id": "EventBattle_C240_010",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_C240_010"
+    },
+    {
+      "event_id": "EventBattle_C240_020",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_C240_020"
+    },
+    {
+      "event_id": "EventBattle_C240_030",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_C240_030"
+    },
+    {
+      "event_id": "EventBattle_C240_040",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_C240_040"
+    },
+    {
+      "event_id": "EventBattle_C240_050",
+      "kind": "story",
+      "claim_flag": "ARPG_VEYL_REWARD_EventBattle_C240_050"
+    }
+  ],
+  "regular_drop_scope": "One independent roll per pool per eligible 3D victory; independent of equipment drops.",
+  "past_boss_policy": "On first activation, mark previously completed bosses claimed without retroactive rewards. Future story victories award once per adventure log.",
+  "balance_version": "veyl-tiers-v1.16.0"
+}

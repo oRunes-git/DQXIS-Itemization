@@ -1,0 +1,336 @@
+{
+  "schema_version": 3,
+  "balance_stage": "Class-bounded T1-T33, 24 normal tiers",
+  "maximum_tier_rank": 33,
+  "quality_draws_by_native_result": [
+    1,
+    1,
+    2,
+    3,
+    4
+  ],
+  "failed_other_reworks_keep_item": true,
+  "failed_value_reroll": "performance_scaled_below_previous_floor_minimum",
+  "replacement_outcomes_by_native_result": [
+    "failure",
+    "success",
+    "success",
+    "success",
+    "perfect"
+  ],
+  "perfect_replacement": "upgrade_one_tier_else_max_value",
+  "failed_replacement": "random_affix_strictly_lower_tier_floor_one",
+  "pearl_cost_multipliers": {
+    "reroll_value": 1,
+    "replace_affix": 2,
+    "reroll_tier": 3,
+    "upgrade_tier": 5
+  },
+  "performance_difficulty": {
+    "schema_version": 1,
+    "balance_stage": "Class-bounded T1-T33, 24 normal tiers",
+    "replacement_score_surcharge": 5,
+    "tier_reroll_perfect_score": 95,
+    "exact_hit_score_bonus": 2,
+    "outside_green_minimum_deviation": 1.5,
+    "rank_rules": [
+      {
+        "rank": 1,
+        "edit_success": 35,
+        "edit_perfect": 75,
+        "upgrade_success": 42,
+        "upgrade_perfect": 78,
+        "tier_reroll_minimum": 35,
+        "tier_reroll_weight": 100
+      },
+      {
+        "rank": 2,
+        "edit_success": 35,
+        "edit_perfect": 75,
+        "upgrade_success": 42,
+        "upgrade_perfect": 78,
+        "tier_reroll_minimum": 35,
+        "tier_reroll_weight": 100
+      },
+      {
+        "rank": 3,
+        "edit_success": 35,
+        "edit_perfect": 75,
+        "upgrade_success": 42,
+        "upgrade_perfect": 78,
+        "tier_reroll_minimum": 35,
+        "tier_reroll_weight": 100
+      },
+      {
+        "rank": 4,
+        "edit_success": 40,
+        "edit_perfect": 78,
+        "upgrade_success": 46,
+        "upgrade_perfect": 80,
+        "tier_reroll_minimum": 45,
+        "tier_reroll_weight": 81
+      },
+      {
+        "rank": 5,
+        "edit_success": 40,
+        "edit_perfect": 78,
+        "upgrade_success": 46,
+        "upgrade_perfect": 80,
+        "tier_reroll_minimum": 45,
+        "tier_reroll_weight": 81
+      },
+      {
+        "rank": 6,
+        "edit_success": 45,
+        "edit_perfect": 81,
+        "upgrade_success": 50,
+        "upgrade_perfect": 83,
+        "tier_reroll_minimum": 55,
+        "tier_reroll_weight": 64
+      },
+      {
+        "rank": 7,
+        "edit_success": 45,
+        "edit_perfect": 81,
+        "upgrade_success": 50,
+        "upgrade_perfect": 83,
+        "tier_reroll_minimum": 55,
+        "tier_reroll_weight": 64
+      },
+      {
+        "rank": 8,
+        "edit_success": 45,
+        "edit_perfect": 81,
+        "upgrade_success": 50,
+        "upgrade_perfect": 83,
+        "tier_reroll_minimum": 55,
+        "tier_reroll_weight": 64
+      },
+      {
+        "rank": 9,
+        "edit_success": 50,
+        "edit_perfect": 84,
+        "upgrade_success": 55,
+        "upgrade_perfect": 86,
+        "tier_reroll_minimum": 65,
+        "tier_reroll_weight": 49
+      },
+      {
+        "rank": 10,
+        "edit_success": 50,
+        "edit_perfect": 84,
+        "upgrade_success": 55,
+        "upgrade_perfect": 86,
+        "tier_reroll_minimum": 65,
+        "tier_reroll_weight": 49
+      },
+      {
+        "rank": 11,
+        "edit_success": 55,
+        "edit_perfect": 87,
+        "upgrade_success": 60,
+        "upgrade_perfect": 89,
+        "tier_reroll_minimum": 75,
+        "tier_reroll_weight": 36
+      },
+      {
+        "rank": 12,
+        "edit_success": 55,
+        "edit_perfect": 87,
+        "upgrade_success": 60,
+        "upgrade_perfect": 89,
+        "tier_reroll_minimum": 75,
+        "tier_reroll_weight": 36
+      },
+      {
+        "rank": 13,
+        "edit_success": 60,
+        "edit_perfect": 90,
+        "upgrade_success": 66,
+        "upgrade_perfect": 92,
+        "tier_reroll_minimum": 84,
+        "tier_reroll_weight": 25
+      },
+      {
+        "rank": 14,
+        "edit_success": 60,
+        "edit_perfect": 90,
+        "upgrade_success": 66,
+        "upgrade_perfect": 92,
+        "tier_reroll_minimum": 84,
+        "tier_reroll_weight": 25
+      },
+      {
+        "rank": 15,
+        "edit_success": 60,
+        "edit_perfect": 90,
+        "upgrade_success": 66,
+        "upgrade_perfect": 92,
+        "tier_reroll_minimum": 84,
+        "tier_reroll_weight": 25
+      },
+      {
+        "rank": 16,
+        "edit_success": 65,
+        "edit_perfect": 93,
+        "upgrade_success": 72,
+        "upgrade_perfect": 95,
+        "tier_reroll_minimum": 90,
+        "tier_reroll_weight": 16
+      },
+      {
+        "rank": 17,
+        "edit_success": 65,
+        "edit_perfect": 93,
+        "upgrade_success": 72,
+        "upgrade_perfect": 95,
+        "tier_reroll_minimum": 90,
+        "tier_reroll_weight": 16
+      },
+      {
+        "rank": 18,
+        "edit_success": 72,
+        "edit_perfect": 95,
+        "upgrade_success": 79,
+        "upgrade_perfect": 97,
+        "tier_reroll_minimum": 95,
+        "tier_reroll_weight": 9
+      },
+      {
+        "rank": 19,
+        "edit_success": 72,
+        "edit_perfect": 95,
+        "upgrade_success": 79,
+        "upgrade_perfect": 97,
+        "tier_reroll_minimum": 95,
+        "tier_reroll_weight": 9
+      },
+      {
+        "rank": 20,
+        "edit_success": 72,
+        "edit_perfect": 95,
+        "upgrade_success": 79,
+        "upgrade_perfect": 97,
+        "tier_reroll_minimum": 95,
+        "tier_reroll_weight": 9
+      },
+      {
+        "rank": 21,
+        "edit_success": 80,
+        "edit_perfect": 97,
+        "upgrade_success": 86,
+        "upgrade_perfect": 99,
+        "tier_reroll_minimum": 98,
+        "tier_reroll_weight": 4
+      },
+      {
+        "rank": 22,
+        "edit_success": 80,
+        "edit_perfect": 97,
+        "upgrade_success": 86,
+        "upgrade_perfect": 99,
+        "tier_reroll_minimum": 98,
+        "tier_reroll_weight": 4
+      },
+      {
+        "rank": 23,
+        "edit_success": 86,
+        "edit_perfect": 99,
+        "upgrade_success": 93,
+        "upgrade_perfect": 100,
+        "tier_reroll_minimum": 100,
+        "tier_reroll_weight": 1
+      },
+      {
+        "rank": 24,
+        "edit_success": 86,
+        "edit_perfect": 99,
+        "upgrade_success": 93,
+        "upgrade_perfect": 100,
+        "tier_reroll_minimum": 100,
+        "tier_reroll_weight": 1
+      },
+      {
+        "rank": 25,
+        "edit_success": 86,
+        "edit_perfect": 99,
+        "upgrade_success": 93,
+        "upgrade_perfect": 100,
+        "tier_reroll_minimum": 100,
+        "tier_reroll_weight": 1
+      },
+      {
+        "rank": 26,
+        "edit_success": 86,
+        "edit_perfect": 99,
+        "upgrade_success": 93,
+        "upgrade_perfect": 100,
+        "tier_reroll_minimum": 100,
+        "tier_reroll_weight": 1
+      },
+      {
+        "rank": 27,
+        "edit_success": 86,
+        "edit_perfect": 99,
+        "upgrade_success": 93,
+        "upgrade_perfect": 100,
+        "tier_reroll_minimum": 100,
+        "tier_reroll_weight": 1
+      },
+      {
+        "rank": 28,
+        "edit_success": 86,
+        "edit_perfect": 99,
+        "upgrade_success": 93,
+        "upgrade_perfect": 100,
+        "tier_reroll_minimum": 100,
+        "tier_reroll_weight": 1
+      },
+      {
+        "rank": 29,
+        "edit_success": 86,
+        "edit_perfect": 99,
+        "upgrade_success": 93,
+        "upgrade_perfect": 100,
+        "tier_reroll_minimum": 100,
+        "tier_reroll_weight": 1
+      },
+      {
+        "rank": 30,
+        "edit_success": 86,
+        "edit_perfect": 99,
+        "upgrade_success": 93,
+        "upgrade_perfect": 100,
+        "tier_reroll_minimum": 100,
+        "tier_reroll_weight": 1
+      },
+      {
+        "rank": 31,
+        "edit_success": 86,
+        "edit_perfect": 99,
+        "upgrade_success": 93,
+        "upgrade_perfect": 100,
+        "tier_reroll_minimum": 100,
+        "tier_reroll_weight": 1
+      },
+      {
+        "rank": 32,
+        "edit_success": 86,
+        "edit_perfect": 99,
+        "upgrade_success": 93,
+        "upgrade_perfect": 100,
+        "tier_reroll_minimum": 100,
+        "tier_reroll_weight": 1
+      },
+      {
+        "rank": 33,
+        "edit_success": 86,
+        "edit_perfect": 99,
+        "upgrade_success": 93,
+        "upgrade_perfect": 100,
+        "tier_reroll_minimum": 100,
+        "tier_reroll_weight": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "save_writes": false,
+  "runtime_generation": true,
+  "rarity": "normal",
+  "fixture_archive": "normal-starters-v2",
+  "steam_build": 6291077,
+  "schema_version": 1,
+  "forge_trace": true,
+  "forge_modifiers": true,
+  "reward_rarity_weights": {
+    "normal": 75,
+    "magic": 20,
+    "rare": 5
+  },
+  "combat_trace": true,
+  "native_combat_scalars": true,
+  "native_added_fire_prototype": false,
+  "native_combat_dispatch": true,
+  "native_combat_events": true,
+  "regional_loot": true,
+  "veyl_crafting": true,
+  "camp_crafting": true,
+  "balance_version": "independent-crafting-v1.16.0"
+}

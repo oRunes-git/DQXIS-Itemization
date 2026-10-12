@@ -1,0 +1,864 @@
+{
+  "schema_version": 2,
+  "version": "camp-crafting-spell-elements-v1.14.0",
+  "mass_salvage_limit": 100,
+  "tier_weights": [
+    1000,
+    1000,
+    1000,
+    850,
+    850,
+    650,
+    650,
+    650,
+    450,
+    450,
+    300,
+    300,
+    190,
+    190,
+    190,
+    110,
+    110,
+    60,
+    60,
+    60,
+    30,
+    30,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12
+  ],
+  "shards": [
+    {
+      "family_id": "attack_flat_1",
+      "native_id": "I_SHARD_ATTACK_FLAT_1",
+      "label": "Added Attack",
+      "name": "Added Attack Shard",
+      "kind": "prefix",
+      "description": "Adds Added Attack to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00001"
+    },
+    {
+      "family_id": "defence_flat_1",
+      "native_id": "I_SHARD_DEFENCE_FLAT_1",
+      "label": "Added Defence",
+      "name": "Added Defence Shard",
+      "kind": "prefix",
+      "description": "Adds Added Defence to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00002"
+    },
+    {
+      "family_id": "hp_flat_1",
+      "native_id": "I_SHARD_HP_FLAT_1",
+      "label": "Max HP",
+      "name": "Max HP Shard",
+      "kind": "prefix",
+      "description": "Adds Max HP to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00003"
+    },
+    {
+      "family_id": "mp_flat_1",
+      "native_id": "I_SHARD_MP_FLAT_1",
+      "label": "Max MP",
+      "name": "Max MP Shard",
+      "kind": "prefix",
+      "description": "Adds Max MP to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00004"
+    },
+    {
+      "family_id": "agility_flat_1",
+      "native_id": "I_SHARD_AGILITY_FLAT_1",
+      "label": "Agility",
+      "name": "Agility Shard",
+      "kind": "suffix",
+      "description": "Adds Agility to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00005"
+    },
+    {
+      "family_id": "deftness_flat_1",
+      "native_id": "I_SHARD_DEFTNESS_FLAT_1",
+      "label": "Deftness",
+      "name": "Deftness Shard",
+      "kind": "suffix",
+      "description": "Adds Deftness to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00006"
+    },
+    {
+      "family_id": "charm_flat_1",
+      "native_id": "I_SHARD_CHARM_FLAT_1",
+      "label": "Charm",
+      "name": "Charm Shard",
+      "kind": "suffix",
+      "description": "Adds Charm to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00007"
+    },
+    {
+      "family_id": "magical_might_flat_1",
+      "native_id": "I_SHARD_MAGICAL_MIGHT_FLAT_1",
+      "label": "Magical Might",
+      "name": "Magical Might Shard",
+      "kind": "prefix",
+      "description": "Adds Magical Might to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00008"
+    },
+    {
+      "family_id": "magical_mending_flat_1",
+      "native_id": "I_SHARD_MAGICAL_MENDING_FLAT_1",
+      "label": "Magical Mending",
+      "name": "Magical Mending Shard",
+      "kind": "prefix",
+      "description": "Adds Magical Mending to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00009"
+    },
+    {
+      "family_id": "critical_chance_1",
+      "native_id": "I_SHARD_CRITICAL_CHANCE_1",
+      "label": "Crit Chance",
+      "name": "Crit Chance Shard",
+      "kind": "suffix",
+      "description": "Adds Crit Chance to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00010"
+    },
+    {
+      "family_id": "dodge_chance_1",
+      "native_id": "I_SHARD_DODGE_CHANCE_1",
+      "label": "Dodge Chance",
+      "name": "Dodge Chance Shard",
+      "kind": "suffix",
+      "description": "Adds Dodge Chance to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00011"
+    },
+    {
+      "family_id": "weapon_guard_chance_1",
+      "native_id": "I_SHARD_WEAPON_GUARD_CHANCE_1",
+      "label": "Parry Chance",
+      "name": "Parry Chance Shard",
+      "kind": "suffix",
+      "description": "Adds Parry Chance to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00012"
+    },
+    {
+      "family_id": "shield_guard_chance_1",
+      "native_id": "I_SHARD_SHIELD_GUARD_CHANCE_1",
+      "label": "Block Chance",
+      "name": "Block Chance Shard",
+      "kind": "suffix",
+      "description": "Adds Block Chance to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00013"
+    },
+    {
+      "family_id": "attack_percent",
+      "native_id": "I_SHARD_ATTACK_PERCENT",
+      "label": "Base Attack",
+      "name": "Base Attack Shard",
+      "kind": "prefix",
+      "description": "Adds Base Attack to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00014"
+    },
+    {
+      "family_id": "defence_percent",
+      "native_id": "I_SHARD_DEFENCE_PERCENT",
+      "label": "Base Defence",
+      "name": "Base Defence Shard",
+      "kind": "prefix",
+      "description": "Adds Base Defence to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00015"
+    },
+    {
+      "family_id": "critical_damage",
+      "native_id": "I_SHARD_CRITICAL_DAMAGE",
+      "label": "Crit Damage",
+      "name": "Crit Damage Shard",
+      "kind": "prefix",
+      "description": "Adds Crit Damage to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00016"
+    },
+    {
+      "family_id": "spell_damage",
+      "native_id": "I_SHARD_SPELL_DAMAGE",
+      "label": "Spell Damage",
+      "name": "Spell Damage Shard",
+      "kind": "prefix",
+      "description": "Adds Spell Damage to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00017"
+    },
+    {
+      "family_id": "healing_power",
+      "native_id": "I_SHARD_HEALING_POWER",
+      "label": "Healing Power",
+      "name": "Healing Power Shard",
+      "kind": "prefix",
+      "description": "Adds Healing Power to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00018"
+    },
+    {
+      "family_id": "damage_fire",
+      "native_id": "I_SHARD_DAMAGE_FIRE",
+      "label": "Fire Damage",
+      "name": "Fire Damage Shard",
+      "kind": "prefix",
+      "description": "Adds Fire Damage to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00019"
+    },
+    {
+      "family_id": "damage_ice",
+      "native_id": "I_SHARD_DAMAGE_ICE",
+      "label": "Ice Damage",
+      "name": "Ice Damage Shard",
+      "kind": "prefix",
+      "description": "Adds Ice Damage to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00020"
+    },
+    {
+      "family_id": "damage_wind",
+      "native_id": "I_SHARD_DAMAGE_WIND",
+      "label": "Wind Damage",
+      "name": "Wind Damage Shard",
+      "kind": "prefix",
+      "description": "Adds Wind Damage to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00021"
+    },
+    {
+      "family_id": "damage_earth",
+      "native_id": "I_SHARD_DAMAGE_EARTH",
+      "label": "Earth Damage",
+      "name": "Earth Damage Shard",
+      "kind": "prefix",
+      "description": "Adds Earth Damage to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00022"
+    },
+    {
+      "family_id": "damage_lightning",
+      "native_id": "I_SHARD_DAMAGE_LIGHTNING",
+      "label": "Lightning Damage",
+      "name": "Lightning Damage Shard",
+      "kind": "prefix",
+      "description": "Adds Lightning Damage to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00023"
+    },
+    {
+      "family_id": "damage_light",
+      "native_id": "I_SHARD_DAMAGE_LIGHT",
+      "label": "Light Damage",
+      "name": "Light Damage Shard",
+      "kind": "prefix",
+      "description": "Adds Light Damage to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00024"
+    },
+    {
+      "family_id": "damage_dark",
+      "native_id": "I_SHARD_DAMAGE_DARK",
+      "label": "Dark Damage",
+      "name": "Dark Damage Shard",
+      "kind": "prefix",
+      "description": "Adds Dark Damage to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00025"
+    },
+    {
+      "family_id": "damage_family_dragon",
+      "native_id": "I_SHARD_DAMAGE_FAMILY_DRAGON",
+      "label": "Damage against Dragons",
+      "name": "Damage against Dragons Shard",
+      "kind": "prefix",
+      "description": "Adds Damage against Dragons to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00026"
+    },
+    {
+      "family_id": "damage_family_undead",
+      "native_id": "I_SHARD_DAMAGE_FAMILY_UNDEAD",
+      "label": "Damage against Undead",
+      "name": "Damage against Undead Shard",
+      "kind": "prefix",
+      "description": "Adds Damage against Undead to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00027"
+    },
+    {
+      "family_id": "damage_family_beast",
+      "native_id": "I_SHARD_DAMAGE_FAMILY_BEAST",
+      "label": "Damage against Beasts",
+      "name": "Damage against Beasts Shard",
+      "kind": "prefix",
+      "description": "Adds Damage against Beasts to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00028"
+    },
+    {
+      "family_id": "damage_family_bird",
+      "native_id": "I_SHARD_DAMAGE_FAMILY_BIRD",
+      "label": "Damage against Birds",
+      "name": "Damage against Birds Shard",
+      "kind": "prefix",
+      "description": "Adds Damage against Birds to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00029"
+    },
+    {
+      "family_id": "damage_family_machine",
+      "native_id": "I_SHARD_DAMAGE_FAMILY_MACHINE",
+      "label": "Damage against Machines",
+      "name": "Damage against Machines Shard",
+      "kind": "prefix",
+      "description": "Adds Damage against Machines to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00030"
+    },
+    {
+      "family_id": "damage_family_slime",
+      "native_id": "I_SHARD_DAMAGE_FAMILY_SLIME",
+      "label": "Damage against Slimes",
+      "name": "Damage against Slimes Shard",
+      "kind": "prefix",
+      "description": "Adds Damage against Slimes to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00031"
+    },
+    {
+      "family_id": "damage_family_demon",
+      "native_id": "I_SHARD_DAMAGE_FAMILY_DEMON",
+      "label": "Damage against Demons",
+      "name": "Damage against Demons Shard",
+      "kind": "prefix",
+      "description": "Adds Damage against Demons to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00032"
+    },
+    {
+      "family_id": "damage_family_material",
+      "native_id": "I_SHARD_DAMAGE_FAMILY_MATERIAL",
+      "label": "Damage against Material Monsters",
+      "name": "Damage against Material Monsters Shard",
+      "kind": "prefix",
+      "description": "Adds Damage against Material Monsters to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00033"
+    },
+    {
+      "family_id": "damage_family_elemental",
+      "native_id": "I_SHARD_DAMAGE_FAMILY_ELEMENTAL",
+      "label": "Damage against Elementals",
+      "name": "Damage against Elementals Shard",
+      "kind": "prefix",
+      "description": "Adds Damage against Elementals to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00034"
+    },
+    {
+      "family_id": "conditional_damage_full_hp",
+      "native_id": "I_SHARD_CONDITIONAL_DAMAGE_FULL_HP",
+      "label": "Damage at Full HP",
+      "name": "Damage at Full HP Shard",
+      "kind": "prefix",
+      "description": "Adds Damage at Full HP to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00035"
+    },
+    {
+      "family_id": "conditional_damage_low_hp",
+      "native_id": "I_SHARD_CONDITIONAL_DAMAGE_LOW_HP",
+      "label": "Damage at Low HP",
+      "name": "Damage at Low HP Shard",
+      "kind": "prefix",
+      "description": "Adds Damage at Low HP to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00036"
+    },
+    {
+      "family_id": "conditional_damage_poisoned",
+      "native_id": "I_SHARD_CONDITIONAL_DAMAGE_POISONED",
+      "label": "Damage against Poisoned Enemies",
+      "name": "Damage against Poisoned Enemies Shard",
+      "kind": "prefix",
+      "description": "Adds Damage against Poisoned Enemies to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00037"
+    },
+    {
+      "family_id": "conditional_damage_debuffed",
+      "native_id": "I_SHARD_CONDITIONAL_DAMAGE_DEBUFFED",
+      "label": "Damage against Debuffed Enemies",
+      "name": "Damage against Debuffed Enemies Shard",
+      "kind": "prefix",
+      "description": "Adds Damage against Debuffed Enemies to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00038"
+    },
+    {
+      "family_id": "on_hit_poison",
+      "native_id": "I_SHARD_ON_HIT_POISON",
+      "label": "Poison on Hit",
+      "name": "Poison on Hit Shard",
+      "kind": "suffix",
+      "description": "Adds Poison on Hit to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00039"
+    },
+    {
+      "family_id": "on_hit_sleep",
+      "native_id": "I_SHARD_ON_HIT_SLEEP",
+      "label": "Sleep on Hit",
+      "name": "Sleep on Hit Shard",
+      "kind": "suffix",
+      "description": "Adds Sleep on Hit to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00040"
+    },
+    {
+      "family_id": "on_hit_defence_down",
+      "native_id": "I_SHARD_ON_HIT_DEFENCE_DOWN",
+      "label": "Defence Down on Hit",
+      "name": "Defence Down on Hit Shard",
+      "kind": "suffix",
+      "description": "Adds Defence Down on Hit to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00041"
+    },
+    {
+      "family_id": "resistance_fire",
+      "native_id": "I_SHARD_RESISTANCE_FIRE",
+      "label": "Fire Resistance",
+      "name": "Fire Resistance Shard",
+      "kind": "suffix",
+      "description": "Adds Fire Resistance to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00042"
+    },
+    {
+      "family_id": "resistance_ice",
+      "native_id": "I_SHARD_RESISTANCE_ICE",
+      "label": "Ice Resistance",
+      "name": "Ice Resistance Shard",
+      "kind": "suffix",
+      "description": "Adds Ice Resistance to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00043"
+    },
+    {
+      "family_id": "resistance_wind",
+      "native_id": "I_SHARD_RESISTANCE_WIND",
+      "label": "Wind Resistance",
+      "name": "Wind Resistance Shard",
+      "kind": "suffix",
+      "description": "Adds Wind Resistance to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00044"
+    },
+    {
+      "family_id": "resistance_earth",
+      "native_id": "I_SHARD_RESISTANCE_EARTH",
+      "label": "Earth Resistance",
+      "name": "Earth Resistance Shard",
+      "kind": "suffix",
+      "description": "Adds Earth Resistance to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00045"
+    },
+    {
+      "family_id": "resistance_lightning",
+      "native_id": "I_SHARD_RESISTANCE_LIGHTNING",
+      "label": "Lightning Resistance",
+      "name": "Lightning Resistance Shard",
+      "kind": "suffix",
+      "description": "Adds Lightning Resistance to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00046"
+    },
+    {
+      "family_id": "resistance_light",
+      "native_id": "I_SHARD_RESISTANCE_LIGHT",
+      "label": "Light Resistance",
+      "name": "Light Resistance Shard",
+      "kind": "suffix",
+      "description": "Adds Light Resistance to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00047"
+    },
+    {
+      "family_id": "resistance_dark",
+      "native_id": "I_SHARD_RESISTANCE_DARK",
+      "label": "Dark Resistance",
+      "name": "Dark Resistance Shard",
+      "kind": "suffix",
+      "description": "Adds Dark Resistance to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00048"
+    },
+    {
+      "family_id": "status_resistance_poison",
+      "native_id": "I_SHARD_STATUS_RESISTANCE_POISON",
+      "label": "Poison Resistance",
+      "name": "Poison Resistance Shard",
+      "kind": "suffix",
+      "description": "Adds Poison Resistance to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00049"
+    },
+    {
+      "family_id": "status_resistance_sleep",
+      "native_id": "I_SHARD_STATUS_RESISTANCE_SLEEP",
+      "label": "Sleep Resistance",
+      "name": "Sleep Resistance Shard",
+      "kind": "suffix",
+      "description": "Adds Sleep Resistance to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00050"
+    },
+    {
+      "family_id": "status_resistance_confusion",
+      "native_id": "I_SHARD_STATUS_RESISTANCE_CONFUSION",
+      "label": "Confusion Resistance",
+      "name": "Confusion Resistance Shard",
+      "kind": "suffix",
+      "description": "Adds Confusion Resistance to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00051"
+    },
+    {
+      "family_id": "status_resistance_paralysis",
+      "native_id": "I_SHARD_STATUS_RESISTANCE_PARALYSIS",
+      "label": "Paralysis Resistance",
+      "name": "Paralysis Resistance Shard",
+      "kind": "suffix",
+      "description": "Adds Paralysis Resistance to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00052"
+    },
+    {
+      "family_id": "status_resistance_silence",
+      "native_id": "I_SHARD_STATUS_RESISTANCE_SILENCE",
+      "label": "Silence Resistance",
+      "name": "Silence Resistance Shard",
+      "kind": "suffix",
+      "description": "Adds Silence Resistance to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00053"
+    },
+    {
+      "family_id": "status_resistance_instant_death",
+      "native_id": "I_SHARD_STATUS_RESISTANCE_INSTANT_DEATH",
+      "label": "Instant Death Resistance",
+      "name": "Instant Death Resistance Shard",
+      "kind": "suffix",
+      "description": "Adds Instant Death Resistance to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00054"
+    },
+    {
+      "family_id": "hp_turn",
+      "native_id": "I_SHARD_HP_TURN",
+      "label": "HP Recovery per Turn",
+      "name": "HP Recovery per Turn Shard",
+      "kind": "prefix",
+      "description": "Adds HP Recovery per Turn to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00055"
+    },
+    {
+      "family_id": "mp_turn",
+      "native_id": "I_SHARD_MP_TURN",
+      "label": "MP Recovery per Turn",
+      "name": "MP Recovery per Turn Shard",
+      "kind": "prefix",
+      "description": "Adds MP Recovery per Turn to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00056"
+    },
+    {
+      "family_id": "hp_defeat",
+      "native_id": "I_SHARD_HP_DEFEAT",
+      "label": "HP after a Defeat",
+      "name": "HP after a Defeat Shard",
+      "kind": "prefix",
+      "description": "Adds HP after a Defeat to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00057"
+    },
+    {
+      "family_id": "mp_defeat",
+      "native_id": "I_SHARD_MP_DEFEAT",
+      "label": "MP after a Defeat",
+      "name": "MP after a Defeat Shard",
+      "kind": "prefix",
+      "description": "Adds MP after a Defeat to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00058"
+    },
+    {
+      "family_id": "life_steal",
+      "native_id": "I_SHARD_LIFE_STEAL",
+      "label": "Life Steal",
+      "name": "Life Steal Shard",
+      "kind": "suffix",
+      "description": "Adds Life Steal to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00059"
+    },
+    {
+      "family_id": "healing_received",
+      "native_id": "I_SHARD_HEALING_RECEIVED",
+      "label": "Healing Received",
+      "name": "Healing Received Shard",
+      "kind": "suffix",
+      "description": "Adds Healing Received to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00060"
+    },
+    {
+      "family_id": "mp_cost",
+      "native_id": "I_SHARD_MP_COST",
+      "label": "MP Cost Reduction",
+      "name": "MP Cost Reduction Shard",
+      "kind": "suffix",
+      "description": "Adds MP Cost Reduction to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00061"
+    },
+    {
+      "family_id": "item_healing",
+      "native_id": "I_SHARD_ITEM_HEALING",
+      "label": "Healing Item Potency",
+      "name": "Healing Item Potency Shard",
+      "kind": "suffix",
+      "description": "Adds Healing Item Potency to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00062"
+    },
+    {
+      "family_id": "physical_reduction",
+      "native_id": "I_SHARD_PHYSICAL_REDUCTION",
+      "label": "Physical Damage Reduction",
+      "name": "Physical Damage Reduction Shard",
+      "kind": "prefix",
+      "description": "Adds Physical Damage Reduction to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00063"
+    },
+    {
+      "family_id": "spell_reduction",
+      "native_id": "I_SHARD_SPELL_REDUCTION",
+      "label": "Spell Damage Reduction",
+      "name": "Spell Damage Reduction Shard",
+      "kind": "prefix",
+      "description": "Adds Spell Damage Reduction to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00064"
+    },
+    {
+      "family_id": "hp_on_block",
+      "native_id": "I_SHARD_HP_ON_BLOCK",
+      "label": "HP after Blocking",
+      "name": "HP after Blocking Shard",
+      "kind": "prefix",
+      "description": "Adds HP after Blocking to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00065"
+    },
+    {
+      "family_id": "evasion_momentum",
+      "native_id": "I_SHARD_EVASION_MOMENTUM",
+      "label": "Damage after Dodging",
+      "name": "Damage after Dodging Shard",
+      "kind": "prefix",
+      "description": "Adds Damage after Dodging to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00066"
+    },
+    {
+      "family_id": "mp_on_crit",
+      "native_id": "I_SHARD_MP_ON_CRIT",
+      "label": "MP after a Crit",
+      "name": "MP after a Crit Shard",
+      "kind": "suffix",
+      "description": "Adds MP after a Crit to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00067"
+    },
+    {
+      "family_id": "skill_damage_sword",
+      "native_id": "I_SHARD_SKILL_DAMAGE_SWORD",
+      "label": "Damage with Sword Skills",
+      "name": "Damage with Sword Skills Shard",
+      "kind": "prefix",
+      "description": "Adds Damage with Sword Skills to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00068"
+    },
+    {
+      "family_id": "skill_damage_greatsword",
+      "native_id": "I_SHARD_SKILL_DAMAGE_GREATSWORD",
+      "label": "Damage with Greatsword Skills",
+      "name": "Damage with Greatsword Skills Shard",
+      "kind": "prefix",
+      "description": "Adds Damage with Greatsword Skills to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00069"
+    },
+    {
+      "family_id": "skill_damage_dagger",
+      "native_id": "I_SHARD_SKILL_DAMAGE_DAGGER",
+      "label": "Damage with Dagger Skills",
+      "name": "Damage with Dagger Skills Shard",
+      "kind": "prefix",
+      "description": "Adds Damage with Dagger Skills to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00070"
+    },
+    {
+      "family_id": "skill_damage_axe",
+      "native_id": "I_SHARD_SKILL_DAMAGE_AXE",
+      "label": "Damage with Axe Skills",
+      "name": "Damage with Axe Skills Shard",
+      "kind": "prefix",
+      "description": "Adds Damage with Axe Skills to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00071"
+    },
+    {
+      "family_id": "skill_damage_spear",
+      "native_id": "I_SHARD_SKILL_DAMAGE_SPEAR",
+      "label": "Damage with Spear Skills",
+      "name": "Damage with Spear Skills Shard",
+      "kind": "prefix",
+      "description": "Adds Damage with Spear Skills to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00072"
+    },
+    {
+      "family_id": "skill_damage_claw",
+      "native_id": "I_SHARD_SKILL_DAMAGE_CLAW",
+      "label": "Damage with Claw Skills",
+      "name": "Damage with Claw Skills Shard",
+      "kind": "prefix",
+      "description": "Adds Damage with Claw Skills to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00073"
+    },
+    {
+      "family_id": "skill_damage_whip",
+      "native_id": "I_SHARD_SKILL_DAMAGE_WHIP",
+      "label": "Damage with Whip Skills",
+      "name": "Damage with Whip Skills Shard",
+      "kind": "prefix",
+      "description": "Adds Damage with Whip Skills to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00074"
+    },
+    {
+      "family_id": "skill_damage_boomerang",
+      "native_id": "I_SHARD_SKILL_DAMAGE_BOOMERANG",
+      "label": "Damage with Boomerang Skills",
+      "name": "Damage with Boomerang Skills Shard",
+      "kind": "prefix",
+      "description": "Adds Damage with Boomerang Skills to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00075"
+    },
+    {
+      "family_id": "mp_absorption_wand",
+      "native_id": "I_SHARD_MP_ABSORPTION_WAND",
+      "label": "MP Absorption on Wand Attacks",
+      "name": "MP Absorption on Wand Attacks Shard",
+      "kind": "suffix",
+      "description": "Adds MP Absorption on Wand Attacks to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00076"
+    },
+    {
+      "family_id": "mp_absorption_heavy_wand",
+      "native_id": "I_SHARD_MP_ABSORPTION_HEAVY_WAND",
+      "label": "MP Absorption on Heavy wand Attacks",
+      "name": "MP Absorption on Heavy wand Attacks Shard",
+      "kind": "suffix",
+      "description": "Adds MP Absorption on Heavy wand Attacks to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00077"
+    },
+    {
+      "family_id": "added_fire",
+      "native_id": "I_SHARD_ADDED_FIRE",
+      "label": "Added Fire Damage",
+      "name": "Added Fire Damage Shard",
+      "kind": "prefix",
+      "description": "Adds Added Fire Damage to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00078"
+    },
+    {
+      "family_id": "added_ice",
+      "native_id": "I_SHARD_ADDED_ICE",
+      "label": "Added Ice Damage",
+      "name": "Added Ice Damage Shard",
+      "kind": "prefix",
+      "description": "Adds Added Ice Damage to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00079"
+    },
+    {
+      "family_id": "added_wind",
+      "native_id": "I_SHARD_ADDED_WIND",
+      "label": "Added Wind Damage",
+      "name": "Added Wind Damage Shard",
+      "kind": "prefix",
+      "description": "Adds Added Wind Damage to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00080"
+    },
+    {
+      "family_id": "added_earth",
+      "native_id": "I_SHARD_ADDED_EARTH",
+      "label": "Added Earth Damage",
+      "name": "Added Earth Damage Shard",
+      "kind": "prefix",
+      "description": "Adds Added Earth Damage to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00081"
+    },
+    {
+      "family_id": "added_lightning",
+      "native_id": "I_SHARD_ADDED_LIGHTNING",
+      "label": "Added Lightning Damage",
+      "name": "Added Lightning Damage Shard",
+      "kind": "prefix",
+      "description": "Adds Added Lightning Damage to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00082"
+    },
+    {
+      "family_id": "added_light",
+      "native_id": "I_SHARD_ADDED_LIGHT",
+      "label": "Added Light Damage",
+      "name": "Added Light Damage Shard",
+      "kind": "prefix",
+      "description": "Adds Added Light Damage to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00083"
+    },
+    {
+      "family_id": "added_dark",
+      "native_id": "I_SHARD_ADDED_DARK",
+      "label": "Added Dark Damage",
+      "name": "Added Dark Damage Shard",
+      "kind": "prefix",
+      "description": "Adds Added Dark Damage to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply.",
+      "icon_name": "T_Hud_Icon_Item_SHD_00084"
+    },
+    {
+      "family_id": "added_spell_fire",
+      "native_id": "I_SHARD_ADDED_SPELL_FIRE",
+      "label": "Added Fire Spell Damage",
+      "name": "Added Fire Spell Damage Shard",
+      "kind": "prefix",
+      "icon_name": "T_Hud_Icon_Item_SHD_00085",
+      "description": "Adds Added Fire Spell Damage to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply."
+    },
+    {
+      "family_id": "added_spell_ice",
+      "native_id": "I_SHARD_ADDED_SPELL_ICE",
+      "label": "Added Ice Spell Damage",
+      "name": "Added Ice Spell Damage Shard",
+      "kind": "prefix",
+      "icon_name": "T_Hud_Icon_Item_SHD_00086",
+      "description": "Adds Added Ice Spell Damage to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply."
+    },
+    {
+      "family_id": "added_spell_wind",
+      "native_id": "I_SHARD_ADDED_SPELL_WIND",
+      "label": "Added Wind Spell Damage",
+      "name": "Added Wind Spell Damage Shard",
+      "kind": "prefix",
+      "icon_name": "T_Hud_Icon_Item_SHD_00087",
+      "description": "Adds Added Wind Spell Damage to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply."
+    },
+    {
+      "family_id": "added_spell_earth",
+      "native_id": "I_SHARD_ADDED_SPELL_EARTH",
+      "label": "Added Earth Spell Damage",
+      "name": "Added Earth Spell Damage Shard",
+      "kind": "prefix",
+      "icon_name": "T_Hud_Icon_Item_SHD_00088",
+      "description": "Adds Added Earth Spell Damage to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply."
+    },
+    {
+      "family_id": "added_spell_lightning",
+      "native_id": "I_SHARD_ADDED_SPELL_LIGHTNING",
+      "label": "Added Lightning Spell Damage",
+      "name": "Added Lightning Spell Damage Shard",
+      "kind": "prefix",
+      "icon_name": "T_Hud_Icon_Item_SHD_00089",
+      "description": "Adds Added Lightning Spell Damage to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply."
+    },
+    {
+      "family_id": "added_spell_light",
+      "native_id": "I_SHARD_ADDED_SPELL_LIGHT",
+      "label": "Added Light Spell Damage",
+      "name": "Added Light Spell Damage Shard",
+      "kind": "prefix",
+      "icon_name": "T_Hud_Icon_Item_SHD_00090",
+      "description": "Adds Added Light Spell Damage to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply."
+    },
+    {
+      "family_id": "added_spell_dark",
+      "native_id": "I_SHARD_ADDED_SPELL_DARK",
+      "label": "Added Dark Spell Damage",
+      "name": "Added Dark Spell Damage Shard",
+      "kind": "prefix",
+      "icon_name": "T_Hud_Icon_Item_SHD_00091",
+      "description": "Adds Added Dark Spell Damage to an empty eligible slot, or raises its matching modifier by one tier. Rolls a value within the new tier; item Class limits apply."
+    }
+  ],
+  "salvage_base_chance_bp": 3000,
+  "salvage_bonus_chance_bp": 1000,
+  "balance_version": "camp-tiers-v1.16.0"
+}
